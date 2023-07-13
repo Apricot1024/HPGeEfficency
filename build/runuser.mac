@@ -1,0 +1,3972 @@
+#/run/numberOfThreads 1
+/run/initialize
+#
+#/control/verbose 0
+#/run/verbose 0
+#/tracking/verbose 1
+#
+/gun/particle gamma
+/gun/energy 10 keV
+#
+/run/beamOn 10
+#
+/gun/energy 11 keV
+#
+/run/beamOn 10
+#
+/gun/energy 12 keV
+#
+/run/beamOn 10
+#
+/gun/energy 13 keV
+#
+/run/beamOn 10
+#
+/gun/energy 14 keV
+#
+/run/beamOn 10
+#
+/gun/energy 15 keV
+#
+/run/beamOn 10
+#
+/gun/energy 16 keV
+#
+/run/beamOn 10
+#
+/gun/energy 17 keV
+#
+/run/beamOn 10
+#
+/gun/energy 18 keV
+#
+/run/beamOn 10
+#
+/gun/energy 19 keV
+#
+/run/beamOn 10
+#
+/gun/energy 20 keV
+#
+/run/beamOn 10
+#
+/gun/energy 21 keV
+#
+/run/beamOn 10
+#
+/gun/energy 22 keV
+#
+/run/beamOn 10
+#
+/gun/energy 23 keV
+#
+/run/beamOn 10
+#
+/gun/energy 24 keV
+#
+/run/beamOn 10
+#
+/gun/energy 25 keV
+#
+/run/beamOn 10
+#
+/gun/energy 26 keV
+#
+/run/beamOn 10
+#
+/gun/energy 27 keV
+#
+/run/beamOn 10
+#
+/gun/energy 28 keV
+#
+/run/beamOn 10
+#
+/gun/energy 29 keV
+#
+/run/beamOn 10
+#
+/gun/energy 30 keV
+#
+/run/beamOn 10
+#
+/gun/energy 31 keV
+#
+/run/beamOn 10
+#
+/gun/energy 32 keV
+#
+/run/beamOn 10
+#
+/gun/energy 33 keV
+#
+/run/beamOn 10
+#
+/gun/energy 34 keV
+#
+/run/beamOn 10
+#
+/gun/energy 35 keV
+#
+/run/beamOn 10
+#
+/gun/energy 36 keV
+#
+/run/beamOn 10
+#
+/gun/energy 37 keV
+#
+/run/beamOn 10
+#
+/gun/energy 38 keV
+#
+/run/beamOn 10
+#
+/gun/energy 39 keV
+#
+/run/beamOn 10
+#
+/gun/energy 40 keV
+#
+/run/beamOn 10
+#
+/gun/energy 41 keV
+#
+/run/beamOn 10
+#
+/gun/energy 42 keV
+#
+/run/beamOn 10
+#
+/gun/energy 43 keV
+#
+/run/beamOn 10
+#
+/gun/energy 44 keV
+#
+/run/beamOn 10
+#
+/gun/energy 45 keV
+#
+/run/beamOn 10
+#
+/gun/energy 46 keV
+#
+/run/beamOn 10
+#
+/gun/energy 47 keV
+#
+/run/beamOn 10
+#
+/gun/energy 48 keV
+#
+/run/beamOn 10
+#
+/gun/energy 49 keV
+#
+/run/beamOn 10
+#
+/gun/energy 50 keV
+#
+/run/beamOn 10
+#
+/gun/energy 51 keV
+#
+/run/beamOn 10
+#
+/gun/energy 52 keV
+#
+/run/beamOn 10
+#
+/gun/energy 53 keV
+#
+/run/beamOn 10
+#
+/gun/energy 54 keV
+#
+/run/beamOn 10
+#
+/gun/energy 55 keV
+#
+/run/beamOn 10
+#
+/gun/energy 56 keV
+#
+/run/beamOn 10
+#
+/gun/energy 57 keV
+#
+/run/beamOn 10
+#
+/gun/energy 58 keV
+#
+/run/beamOn 10
+#
+/gun/energy 59 keV
+#
+/run/beamOn 10
+#
+/gun/energy 60 keV
+#
+/run/beamOn 10
+#
+/gun/energy 61 keV
+#
+/run/beamOn 10
+#
+/gun/energy 62 keV
+#
+/run/beamOn 10
+#
+/gun/energy 63 keV
+#
+/run/beamOn 10
+#
+/gun/energy 64 keV
+#
+/run/beamOn 10
+#
+/gun/energy 65 keV
+#
+/run/beamOn 10
+#
+/gun/energy 66 keV
+#
+/run/beamOn 10
+#
+/gun/energy 67 keV
+#
+/run/beamOn 10
+#
+/gun/energy 68 keV
+#
+/run/beamOn 10
+#
+/gun/energy 69 keV
+#
+/run/beamOn 10
+#
+/gun/energy 70 keV
+#
+/run/beamOn 10
+#
+/gun/energy 71 keV
+#
+/run/beamOn 10
+#
+/gun/energy 72 keV
+#
+/run/beamOn 10
+#
+/gun/energy 73 keV
+#
+/run/beamOn 10
+#
+/gun/energy 74 keV
+#
+/run/beamOn 10
+#
+/gun/energy 75 keV
+#
+/run/beamOn 10
+#
+/gun/energy 76 keV
+#
+/run/beamOn 10
+#
+/gun/energy 77 keV
+#
+/run/beamOn 10
+#
+/gun/energy 78 keV
+#
+/run/beamOn 10
+#
+/gun/energy 79 keV
+#
+/run/beamOn 10
+#
+/gun/energy 80 keV
+#
+/run/beamOn 10
+#
+/gun/energy 81 keV
+#
+/run/beamOn 10
+#
+/gun/energy 82 keV
+#
+/run/beamOn 10
+#
+/gun/energy 83 keV
+#
+/run/beamOn 10
+#
+/gun/energy 84 keV
+#
+/run/beamOn 10
+#
+/gun/energy 85 keV
+#
+/run/beamOn 10
+#
+/gun/energy 86 keV
+#
+/run/beamOn 10
+#
+/gun/energy 87 keV
+#
+/run/beamOn 10
+#
+/gun/energy 88 keV
+#
+/run/beamOn 10
+#
+/gun/energy 89 keV
+#
+/run/beamOn 10
+#
+/gun/energy 90 keV
+#
+/run/beamOn 10
+#
+/gun/energy 91 keV
+#
+/run/beamOn 10
+#
+/gun/energy 92 keV
+#
+/run/beamOn 10
+#
+/gun/energy 93 keV
+#
+/run/beamOn 10
+#
+/gun/energy 94 keV
+#
+/run/beamOn 10
+#
+/gun/energy 95 keV
+#
+/run/beamOn 10
+#
+/gun/energy 96 keV
+#
+/run/beamOn 10
+#
+/gun/energy 97 keV
+#
+/run/beamOn 10
+#
+/gun/energy 98 keV
+#
+/run/beamOn 10
+#
+/gun/energy 99 keV
+#
+/run/beamOn 10
+#
+/gun/energy 100 keV
+#
+/run/beamOn 10
+#
+/gun/energy 101 keV
+#
+/run/beamOn 10
+#
+/gun/energy 102 keV
+#
+/run/beamOn 10
+#
+/gun/energy 103 keV
+#
+/run/beamOn 10
+#
+/gun/energy 104 keV
+#
+/run/beamOn 10
+#
+/gun/energy 105 keV
+#
+/run/beamOn 10
+#
+/gun/energy 106 keV
+#
+/run/beamOn 10
+#
+/gun/energy 107 keV
+#
+/run/beamOn 10
+#
+/gun/energy 108 keV
+#
+/run/beamOn 10
+#
+/gun/energy 109 keV
+#
+/run/beamOn 10
+#
+/gun/energy 110 keV
+#
+/run/beamOn 10
+#
+/gun/energy 111 keV
+#
+/run/beamOn 10
+#
+/gun/energy 112 keV
+#
+/run/beamOn 10
+#
+/gun/energy 113 keV
+#
+/run/beamOn 10
+#
+/gun/energy 114 keV
+#
+/run/beamOn 10
+#
+/gun/energy 115 keV
+#
+/run/beamOn 10
+#
+/gun/energy 116 keV
+#
+/run/beamOn 10
+#
+/gun/energy 117 keV
+#
+/run/beamOn 10
+#
+/gun/energy 118 keV
+#
+/run/beamOn 10
+#
+/gun/energy 119 keV
+#
+/run/beamOn 10
+#
+/gun/energy 120 keV
+#
+/run/beamOn 10
+#
+/gun/energy 121 keV
+#
+/run/beamOn 10
+#
+/gun/energy 122 keV
+#
+/run/beamOn 10
+#
+/gun/energy 123 keV
+#
+/run/beamOn 10
+#
+/gun/energy 124 keV
+#
+/run/beamOn 10
+#
+/gun/energy 125 keV
+#
+/run/beamOn 10
+#
+/gun/energy 126 keV
+#
+/run/beamOn 10
+#
+/gun/energy 127 keV
+#
+/run/beamOn 10
+#
+/gun/energy 128 keV
+#
+/run/beamOn 10
+#
+/gun/energy 129 keV
+#
+/run/beamOn 10
+#
+/gun/energy 130 keV
+#
+/run/beamOn 10
+#
+/gun/energy 131 keV
+#
+/run/beamOn 10
+#
+/gun/energy 132 keV
+#
+/run/beamOn 10
+#
+/gun/energy 133 keV
+#
+/run/beamOn 10
+#
+/gun/energy 134 keV
+#
+/run/beamOn 10
+#
+/gun/energy 135 keV
+#
+/run/beamOn 10
+#
+/gun/energy 136 keV
+#
+/run/beamOn 10
+#
+/gun/energy 137 keV
+#
+/run/beamOn 10
+#
+/gun/energy 138 keV
+#
+/run/beamOn 10
+#
+/gun/energy 139 keV
+#
+/run/beamOn 10
+#
+/gun/energy 140 keV
+#
+/run/beamOn 10
+#
+/gun/energy 141 keV
+#
+/run/beamOn 10
+#
+/gun/energy 142 keV
+#
+/run/beamOn 10
+#
+/gun/energy 143 keV
+#
+/run/beamOn 10
+#
+/gun/energy 144 keV
+#
+/run/beamOn 10
+#
+/gun/energy 145 keV
+#
+/run/beamOn 10
+#
+/gun/energy 146 keV
+#
+/run/beamOn 10
+#
+/gun/energy 147 keV
+#
+/run/beamOn 10
+#
+/gun/energy 148 keV
+#
+/run/beamOn 10
+#
+/gun/energy 149 keV
+#
+/run/beamOn 10
+#
+/gun/energy 150 keV
+#
+/run/beamOn 10
+#
+/gun/energy 151 keV
+#
+/run/beamOn 10
+#
+/gun/energy 152 keV
+#
+/run/beamOn 10
+#
+/gun/energy 153 keV
+#
+/run/beamOn 10
+#
+/gun/energy 154 keV
+#
+/run/beamOn 10
+#
+/gun/energy 155 keV
+#
+/run/beamOn 10
+#
+/gun/energy 156 keV
+#
+/run/beamOn 10
+#
+/gun/energy 157 keV
+#
+/run/beamOn 10
+#
+/gun/energy 158 keV
+#
+/run/beamOn 10
+#
+/gun/energy 159 keV
+#
+/run/beamOn 10
+#
+/gun/energy 160 keV
+#
+/run/beamOn 10
+#
+/gun/energy 161 keV
+#
+/run/beamOn 10
+#
+/gun/energy 162 keV
+#
+/run/beamOn 10
+#
+/gun/energy 163 keV
+#
+/run/beamOn 10
+#
+/gun/energy 164 keV
+#
+/run/beamOn 10
+#
+/gun/energy 165 keV
+#
+/run/beamOn 10
+#
+/gun/energy 166 keV
+#
+/run/beamOn 10
+#
+/gun/energy 167 keV
+#
+/run/beamOn 10
+#
+/gun/energy 168 keV
+#
+/run/beamOn 10
+#
+/gun/energy 169 keV
+#
+/run/beamOn 10
+#
+/gun/energy 170 keV
+#
+/run/beamOn 10
+#
+/gun/energy 171 keV
+#
+/run/beamOn 10
+#
+/gun/energy 172 keV
+#
+/run/beamOn 10
+#
+/gun/energy 173 keV
+#
+/run/beamOn 10
+#
+/gun/energy 174 keV
+#
+/run/beamOn 10
+#
+/gun/energy 175 keV
+#
+/run/beamOn 10
+#
+/gun/energy 176 keV
+#
+/run/beamOn 10
+#
+/gun/energy 177 keV
+#
+/run/beamOn 10
+#
+/gun/energy 178 keV
+#
+/run/beamOn 10
+#
+/gun/energy 179 keV
+#
+/run/beamOn 10
+#
+/gun/energy 180 keV
+#
+/run/beamOn 10
+#
+/gun/energy 181 keV
+#
+/run/beamOn 10
+#
+/gun/energy 182 keV
+#
+/run/beamOn 10
+#
+/gun/energy 183 keV
+#
+/run/beamOn 10
+#
+/gun/energy 184 keV
+#
+/run/beamOn 10
+#
+/gun/energy 185 keV
+#
+/run/beamOn 10
+#
+/gun/energy 186 keV
+#
+/run/beamOn 10
+#
+/gun/energy 187 keV
+#
+/run/beamOn 10
+#
+/gun/energy 188 keV
+#
+/run/beamOn 10
+#
+/gun/energy 189 keV
+#
+/run/beamOn 10
+#
+/gun/energy 190 keV
+#
+/run/beamOn 10
+#
+/gun/energy 191 keV
+#
+/run/beamOn 10
+#
+/gun/energy 192 keV
+#
+/run/beamOn 10
+#
+/gun/energy 193 keV
+#
+/run/beamOn 10
+#
+/gun/energy 194 keV
+#
+/run/beamOn 10
+#
+/gun/energy 195 keV
+#
+/run/beamOn 10
+#
+/gun/energy 196 keV
+#
+/run/beamOn 10
+#
+/gun/energy 197 keV
+#
+/run/beamOn 10
+#
+/gun/energy 198 keV
+#
+/run/beamOn 10
+#
+/gun/energy 199 keV
+#
+/run/beamOn 10
+#
+/gun/energy 200 keV
+#
+/run/beamOn 10
+#
+/gun/energy 201 keV
+#
+/run/beamOn 10
+#
+/gun/energy 202 keV
+#
+/run/beamOn 10
+#
+/gun/energy 203 keV
+#
+/run/beamOn 10
+#
+/gun/energy 204 keV
+#
+/run/beamOn 10
+#
+/gun/energy 205 keV
+#
+/run/beamOn 10
+#
+/gun/energy 206 keV
+#
+/run/beamOn 10
+#
+/gun/energy 207 keV
+#
+/run/beamOn 10
+#
+/gun/energy 208 keV
+#
+/run/beamOn 10
+#
+/gun/energy 209 keV
+#
+/run/beamOn 10
+#
+/gun/energy 210 keV
+#
+/run/beamOn 10
+#
+/gun/energy 211 keV
+#
+/run/beamOn 10
+#
+/gun/energy 212 keV
+#
+/run/beamOn 10
+#
+/gun/energy 213 keV
+#
+/run/beamOn 10
+#
+/gun/energy 214 keV
+#
+/run/beamOn 10
+#
+/gun/energy 215 keV
+#
+/run/beamOn 10
+#
+/gun/energy 216 keV
+#
+/run/beamOn 10
+#
+/gun/energy 217 keV
+#
+/run/beamOn 10
+#
+/gun/energy 218 keV
+#
+/run/beamOn 10
+#
+/gun/energy 219 keV
+#
+/run/beamOn 10
+#
+/gun/energy 220 keV
+#
+/run/beamOn 10
+#
+/gun/energy 221 keV
+#
+/run/beamOn 10
+#
+/gun/energy 222 keV
+#
+/run/beamOn 10
+#
+/gun/energy 223 keV
+#
+/run/beamOn 10
+#
+/gun/energy 224 keV
+#
+/run/beamOn 10
+#
+/gun/energy 225 keV
+#
+/run/beamOn 10
+#
+/gun/energy 226 keV
+#
+/run/beamOn 10
+#
+/gun/energy 227 keV
+#
+/run/beamOn 10
+#
+/gun/energy 228 keV
+#
+/run/beamOn 10
+#
+/gun/energy 229 keV
+#
+/run/beamOn 10
+#
+/gun/energy 230 keV
+#
+/run/beamOn 10
+#
+/gun/energy 231 keV
+#
+/run/beamOn 10
+#
+/gun/energy 232 keV
+#
+/run/beamOn 10
+#
+/gun/energy 233 keV
+#
+/run/beamOn 10
+#
+/gun/energy 234 keV
+#
+/run/beamOn 10
+#
+/gun/energy 235 keV
+#
+/run/beamOn 10
+#
+/gun/energy 236 keV
+#
+/run/beamOn 10
+#
+/gun/energy 237 keV
+#
+/run/beamOn 10
+#
+/gun/energy 238 keV
+#
+/run/beamOn 10
+#
+/gun/energy 239 keV
+#
+/run/beamOn 10
+#
+/gun/energy 240 keV
+#
+/run/beamOn 10
+#
+/gun/energy 241 keV
+#
+/run/beamOn 10
+#
+/gun/energy 242 keV
+#
+/run/beamOn 10
+#
+/gun/energy 243 keV
+#
+/run/beamOn 10
+#
+/gun/energy 244 keV
+#
+/run/beamOn 10
+#
+/gun/energy 245 keV
+#
+/run/beamOn 10
+#
+/gun/energy 246 keV
+#
+/run/beamOn 10
+#
+/gun/energy 247 keV
+#
+/run/beamOn 10
+#
+/gun/energy 248 keV
+#
+/run/beamOn 10
+#
+/gun/energy 249 keV
+#
+/run/beamOn 10
+#
+/gun/energy 250 keV
+#
+/run/beamOn 10
+#
+/gun/energy 251 keV
+#
+/run/beamOn 10
+#
+/gun/energy 252 keV
+#
+/run/beamOn 10
+#
+/gun/energy 253 keV
+#
+/run/beamOn 10
+#
+/gun/energy 254 keV
+#
+/run/beamOn 10
+#
+/gun/energy 255 keV
+#
+/run/beamOn 10
+#
+/gun/energy 256 keV
+#
+/run/beamOn 10
+#
+/gun/energy 257 keV
+#
+/run/beamOn 10
+#
+/gun/energy 258 keV
+#
+/run/beamOn 10
+#
+/gun/energy 259 keV
+#
+/run/beamOn 10
+#
+/gun/energy 260 keV
+#
+/run/beamOn 10
+#
+/gun/energy 261 keV
+#
+/run/beamOn 10
+#
+/gun/energy 262 keV
+#
+/run/beamOn 10
+#
+/gun/energy 263 keV
+#
+/run/beamOn 10
+#
+/gun/energy 264 keV
+#
+/run/beamOn 10
+#
+/gun/energy 265 keV
+#
+/run/beamOn 10
+#
+/gun/energy 266 keV
+#
+/run/beamOn 10
+#
+/gun/energy 267 keV
+#
+/run/beamOn 10
+#
+/gun/energy 268 keV
+#
+/run/beamOn 10
+#
+/gun/energy 269 keV
+#
+/run/beamOn 10
+#
+/gun/energy 270 keV
+#
+/run/beamOn 10
+#
+/gun/energy 271 keV
+#
+/run/beamOn 10
+#
+/gun/energy 272 keV
+#
+/run/beamOn 10
+#
+/gun/energy 273 keV
+#
+/run/beamOn 10
+#
+/gun/energy 274 keV
+#
+/run/beamOn 10
+#
+/gun/energy 275 keV
+#
+/run/beamOn 10
+#
+/gun/energy 276 keV
+#
+/run/beamOn 10
+#
+/gun/energy 277 keV
+#
+/run/beamOn 10
+#
+/gun/energy 278 keV
+#
+/run/beamOn 10
+#
+/gun/energy 279 keV
+#
+/run/beamOn 10
+#
+/gun/energy 280 keV
+#
+/run/beamOn 10
+#
+/gun/energy 281 keV
+#
+/run/beamOn 10
+#
+/gun/energy 282 keV
+#
+/run/beamOn 10
+#
+/gun/energy 283 keV
+#
+/run/beamOn 10
+#
+/gun/energy 284 keV
+#
+/run/beamOn 10
+#
+/gun/energy 285 keV
+#
+/run/beamOn 10
+#
+/gun/energy 286 keV
+#
+/run/beamOn 10
+#
+/gun/energy 287 keV
+#
+/run/beamOn 10
+#
+/gun/energy 288 keV
+#
+/run/beamOn 10
+#
+/gun/energy 289 keV
+#
+/run/beamOn 10
+#
+/gun/energy 290 keV
+#
+/run/beamOn 10
+#
+/gun/energy 291 keV
+#
+/run/beamOn 10
+#
+/gun/energy 292 keV
+#
+/run/beamOn 10
+#
+/gun/energy 293 keV
+#
+/run/beamOn 10
+#
+/gun/energy 294 keV
+#
+/run/beamOn 10
+#
+/gun/energy 295 keV
+#
+/run/beamOn 10
+#
+/gun/energy 296 keV
+#
+/run/beamOn 10
+#
+/gun/energy 297 keV
+#
+/run/beamOn 10
+#
+/gun/energy 298 keV
+#
+/run/beamOn 10
+#
+/gun/energy 299 keV
+#
+/run/beamOn 10
+#
+/gun/energy 300 keV
+#
+/run/beamOn 10
+#
+/gun/energy 301 keV
+#
+/run/beamOn 10
+#
+/gun/energy 302 keV
+#
+/run/beamOn 10
+#
+/gun/energy 303 keV
+#
+/run/beamOn 10
+#
+/gun/energy 304 keV
+#
+/run/beamOn 10
+#
+/gun/energy 305 keV
+#
+/run/beamOn 10
+#
+/gun/energy 306 keV
+#
+/run/beamOn 10
+#
+/gun/energy 307 keV
+#
+/run/beamOn 10
+#
+/gun/energy 308 keV
+#
+/run/beamOn 10
+#
+/gun/energy 309 keV
+#
+/run/beamOn 10
+#
+/gun/energy 310 keV
+#
+/run/beamOn 10
+#
+/gun/energy 311 keV
+#
+/run/beamOn 10
+#
+/gun/energy 312 keV
+#
+/run/beamOn 10
+#
+/gun/energy 313 keV
+#
+/run/beamOn 10
+#
+/gun/energy 314 keV
+#
+/run/beamOn 10
+#
+/gun/energy 315 keV
+#
+/run/beamOn 10
+#
+/gun/energy 316 keV
+#
+/run/beamOn 10
+#
+/gun/energy 317 keV
+#
+/run/beamOn 10
+#
+/gun/energy 318 keV
+#
+/run/beamOn 10
+#
+/gun/energy 319 keV
+#
+/run/beamOn 10
+#
+/gun/energy 320 keV
+#
+/run/beamOn 10
+#
+/gun/energy 321 keV
+#
+/run/beamOn 10
+#
+/gun/energy 322 keV
+#
+/run/beamOn 10
+#
+/gun/energy 323 keV
+#
+/run/beamOn 10
+#
+/gun/energy 324 keV
+#
+/run/beamOn 10
+#
+/gun/energy 325 keV
+#
+/run/beamOn 10
+#
+/gun/energy 326 keV
+#
+/run/beamOn 10
+#
+/gun/energy 327 keV
+#
+/run/beamOn 10
+#
+/gun/energy 328 keV
+#
+/run/beamOn 10
+#
+/gun/energy 329 keV
+#
+/run/beamOn 10
+#
+/gun/energy 330 keV
+#
+/run/beamOn 10
+#
+/gun/energy 331 keV
+#
+/run/beamOn 10
+#
+/gun/energy 332 keV
+#
+/run/beamOn 10
+#
+/gun/energy 333 keV
+#
+/run/beamOn 10
+#
+/gun/energy 334 keV
+#
+/run/beamOn 10
+#
+/gun/energy 335 keV
+#
+/run/beamOn 10
+#
+/gun/energy 336 keV
+#
+/run/beamOn 10
+#
+/gun/energy 337 keV
+#
+/run/beamOn 10
+#
+/gun/energy 338 keV
+#
+/run/beamOn 10
+#
+/gun/energy 339 keV
+#
+/run/beamOn 10
+#
+/gun/energy 340 keV
+#
+/run/beamOn 10
+#
+/gun/energy 341 keV
+#
+/run/beamOn 10
+#
+/gun/energy 342 keV
+#
+/run/beamOn 10
+#
+/gun/energy 343 keV
+#
+/run/beamOn 10
+#
+/gun/energy 344 keV
+#
+/run/beamOn 10
+#
+/gun/energy 345 keV
+#
+/run/beamOn 10
+#
+/gun/energy 346 keV
+#
+/run/beamOn 10
+#
+/gun/energy 347 keV
+#
+/run/beamOn 10
+#
+/gun/energy 348 keV
+#
+/run/beamOn 10
+#
+/gun/energy 349 keV
+#
+/run/beamOn 10
+#
+/gun/energy 350 keV
+#
+/run/beamOn 10
+#
+/gun/energy 351 keV
+#
+/run/beamOn 10
+#
+/gun/energy 352 keV
+#
+/run/beamOn 10
+#
+/gun/energy 353 keV
+#
+/run/beamOn 10
+#
+/gun/energy 354 keV
+#
+/run/beamOn 10
+#
+/gun/energy 355 keV
+#
+/run/beamOn 10
+#
+/gun/energy 356 keV
+#
+/run/beamOn 10
+#
+/gun/energy 357 keV
+#
+/run/beamOn 10
+#
+/gun/energy 358 keV
+#
+/run/beamOn 10
+#
+/gun/energy 359 keV
+#
+/run/beamOn 10
+#
+/gun/energy 360 keV
+#
+/run/beamOn 10
+#
+/gun/energy 361 keV
+#
+/run/beamOn 10
+#
+/gun/energy 362 keV
+#
+/run/beamOn 10
+#
+/gun/energy 363 keV
+#
+/run/beamOn 10
+#
+/gun/energy 364 keV
+#
+/run/beamOn 10
+#
+/gun/energy 365 keV
+#
+/run/beamOn 10
+#
+/gun/energy 366 keV
+#
+/run/beamOn 10
+#
+/gun/energy 367 keV
+#
+/run/beamOn 10
+#
+/gun/energy 368 keV
+#
+/run/beamOn 10
+#
+/gun/energy 369 keV
+#
+/run/beamOn 10
+#
+/gun/energy 370 keV
+#
+/run/beamOn 10
+#
+/gun/energy 371 keV
+#
+/run/beamOn 10
+#
+/gun/energy 372 keV
+#
+/run/beamOn 10
+#
+/gun/energy 373 keV
+#
+/run/beamOn 10
+#
+/gun/energy 374 keV
+#
+/run/beamOn 10
+#
+/gun/energy 375 keV
+#
+/run/beamOn 10
+#
+/gun/energy 376 keV
+#
+/run/beamOn 10
+#
+/gun/energy 377 keV
+#
+/run/beamOn 10
+#
+/gun/energy 378 keV
+#
+/run/beamOn 10
+#
+/gun/energy 379 keV
+#
+/run/beamOn 10
+#
+/gun/energy 380 keV
+#
+/run/beamOn 10
+#
+/gun/energy 381 keV
+#
+/run/beamOn 10
+#
+/gun/energy 382 keV
+#
+/run/beamOn 10
+#
+/gun/energy 383 keV
+#
+/run/beamOn 10
+#
+/gun/energy 384 keV
+#
+/run/beamOn 10
+#
+/gun/energy 385 keV
+#
+/run/beamOn 10
+#
+/gun/energy 386 keV
+#
+/run/beamOn 10
+#
+/gun/energy 387 keV
+#
+/run/beamOn 10
+#
+/gun/energy 388 keV
+#
+/run/beamOn 10
+#
+/gun/energy 389 keV
+#
+/run/beamOn 10
+#
+/gun/energy 390 keV
+#
+/run/beamOn 10
+#
+/gun/energy 391 keV
+#
+/run/beamOn 10
+#
+/gun/energy 392 keV
+#
+/run/beamOn 10
+#
+/gun/energy 393 keV
+#
+/run/beamOn 10
+#
+/gun/energy 394 keV
+#
+/run/beamOn 10
+#
+/gun/energy 395 keV
+#
+/run/beamOn 10
+#
+/gun/energy 396 keV
+#
+/run/beamOn 10
+#
+/gun/energy 397 keV
+#
+/run/beamOn 10
+#
+/gun/energy 398 keV
+#
+/run/beamOn 10
+#
+/gun/energy 399 keV
+#
+/run/beamOn 10
+#
+/gun/energy 400 keV
+#
+/run/beamOn 10
+#
+/gun/energy 401 keV
+#
+/run/beamOn 10
+#
+/gun/energy 402 keV
+#
+/run/beamOn 10
+#
+/gun/energy 403 keV
+#
+/run/beamOn 10
+#
+/gun/energy 404 keV
+#
+/run/beamOn 10
+#
+/gun/energy 405 keV
+#
+/run/beamOn 10
+#
+/gun/energy 406 keV
+#
+/run/beamOn 10
+#
+/gun/energy 407 keV
+#
+/run/beamOn 10
+#
+/gun/energy 408 keV
+#
+/run/beamOn 10
+#
+/gun/energy 409 keV
+#
+/run/beamOn 10
+#
+/gun/energy 410 keV
+#
+/run/beamOn 10
+#
+/gun/energy 411 keV
+#
+/run/beamOn 10
+#
+/gun/energy 412 keV
+#
+/run/beamOn 10
+#
+/gun/energy 413 keV
+#
+/run/beamOn 10
+#
+/gun/energy 414 keV
+#
+/run/beamOn 10
+#
+/gun/energy 415 keV
+#
+/run/beamOn 10
+#
+/gun/energy 416 keV
+#
+/run/beamOn 10
+#
+/gun/energy 417 keV
+#
+/run/beamOn 10
+#
+/gun/energy 418 keV
+#
+/run/beamOn 10
+#
+/gun/energy 419 keV
+#
+/run/beamOn 10
+#
+/gun/energy 420 keV
+#
+/run/beamOn 10
+#
+/gun/energy 421 keV
+#
+/run/beamOn 10
+#
+/gun/energy 422 keV
+#
+/run/beamOn 10
+#
+/gun/energy 423 keV
+#
+/run/beamOn 10
+#
+/gun/energy 424 keV
+#
+/run/beamOn 10
+#
+/gun/energy 425 keV
+#
+/run/beamOn 10
+#
+/gun/energy 426 keV
+#
+/run/beamOn 10
+#
+/gun/energy 427 keV
+#
+/run/beamOn 10
+#
+/gun/energy 428 keV
+#
+/run/beamOn 10
+#
+/gun/energy 429 keV
+#
+/run/beamOn 10
+#
+/gun/energy 430 keV
+#
+/run/beamOn 10
+#
+/gun/energy 431 keV
+#
+/run/beamOn 10
+#
+/gun/energy 432 keV
+#
+/run/beamOn 10
+#
+/gun/energy 433 keV
+#
+/run/beamOn 10
+#
+/gun/energy 434 keV
+#
+/run/beamOn 10
+#
+/gun/energy 435 keV
+#
+/run/beamOn 10
+#
+/gun/energy 436 keV
+#
+/run/beamOn 10
+#
+/gun/energy 437 keV
+#
+/run/beamOn 10
+#
+/gun/energy 438 keV
+#
+/run/beamOn 10
+#
+/gun/energy 439 keV
+#
+/run/beamOn 10
+#
+/gun/energy 440 keV
+#
+/run/beamOn 10
+#
+/gun/energy 441 keV
+#
+/run/beamOn 10
+#
+/gun/energy 442 keV
+#
+/run/beamOn 10
+#
+/gun/energy 443 keV
+#
+/run/beamOn 10
+#
+/gun/energy 444 keV
+#
+/run/beamOn 10
+#
+/gun/energy 445 keV
+#
+/run/beamOn 10
+#
+/gun/energy 446 keV
+#
+/run/beamOn 10
+#
+/gun/energy 447 keV
+#
+/run/beamOn 10
+#
+/gun/energy 448 keV
+#
+/run/beamOn 10
+#
+/gun/energy 449 keV
+#
+/run/beamOn 10
+#
+/gun/energy 450 keV
+#
+/run/beamOn 10
+#
+/gun/energy 451 keV
+#
+/run/beamOn 10
+#
+/gun/energy 452 keV
+#
+/run/beamOn 10
+#
+/gun/energy 453 keV
+#
+/run/beamOn 10
+#
+/gun/energy 454 keV
+#
+/run/beamOn 10
+#
+/gun/energy 455 keV
+#
+/run/beamOn 10
+#
+/gun/energy 456 keV
+#
+/run/beamOn 10
+#
+/gun/energy 457 keV
+#
+/run/beamOn 10
+#
+/gun/energy 458 keV
+#
+/run/beamOn 10
+#
+/gun/energy 459 keV
+#
+/run/beamOn 10
+#
+/gun/energy 460 keV
+#
+/run/beamOn 10
+#
+/gun/energy 461 keV
+#
+/run/beamOn 10
+#
+/gun/energy 462 keV
+#
+/run/beamOn 10
+#
+/gun/energy 463 keV
+#
+/run/beamOn 10
+#
+/gun/energy 464 keV
+#
+/run/beamOn 10
+#
+/gun/energy 465 keV
+#
+/run/beamOn 10
+#
+/gun/energy 466 keV
+#
+/run/beamOn 10
+#
+/gun/energy 467 keV
+#
+/run/beamOn 10
+#
+/gun/energy 468 keV
+#
+/run/beamOn 10
+#
+/gun/energy 469 keV
+#
+/run/beamOn 10
+#
+/gun/energy 470 keV
+#
+/run/beamOn 10
+#
+/gun/energy 471 keV
+#
+/run/beamOn 10
+#
+/gun/energy 472 keV
+#
+/run/beamOn 10
+#
+/gun/energy 473 keV
+#
+/run/beamOn 10
+#
+/gun/energy 474 keV
+#
+/run/beamOn 10
+#
+/gun/energy 475 keV
+#
+/run/beamOn 10
+#
+/gun/energy 476 keV
+#
+/run/beamOn 10
+#
+/gun/energy 477 keV
+#
+/run/beamOn 10
+#
+/gun/energy 478 keV
+#
+/run/beamOn 10
+#
+/gun/energy 479 keV
+#
+/run/beamOn 10
+#
+/gun/energy 480 keV
+#
+/run/beamOn 10
+#
+/gun/energy 481 keV
+#
+/run/beamOn 10
+#
+/gun/energy 482 keV
+#
+/run/beamOn 10
+#
+/gun/energy 483 keV
+#
+/run/beamOn 10
+#
+/gun/energy 484 keV
+#
+/run/beamOn 10
+#
+/gun/energy 485 keV
+#
+/run/beamOn 10
+#
+/gun/energy 486 keV
+#
+/run/beamOn 10
+#
+/gun/energy 487 keV
+#
+/run/beamOn 10
+#
+/gun/energy 488 keV
+#
+/run/beamOn 10
+#
+/gun/energy 489 keV
+#
+/run/beamOn 10
+#
+/gun/energy 490 keV
+#
+/run/beamOn 10
+#
+/gun/energy 491 keV
+#
+/run/beamOn 10
+#
+/gun/energy 492 keV
+#
+/run/beamOn 10
+#
+/gun/energy 493 keV
+#
+/run/beamOn 10
+#
+/gun/energy 494 keV
+#
+/run/beamOn 10
+#
+/gun/energy 495 keV
+#
+/run/beamOn 10
+#
+/gun/energy 496 keV
+#
+/run/beamOn 10
+#
+/gun/energy 497 keV
+#
+/run/beamOn 10
+#
+/gun/energy 498 keV
+#
+/run/beamOn 10
+#
+/gun/energy 499 keV
+#
+/run/beamOn 10
+#
+/gun/energy 500 keV
+#
+/run/beamOn 10
+#
+/gun/energy 501 keV
+#
+/run/beamOn 10
+#
+/gun/energy 502 keV
+#
+/run/beamOn 10
+#
+/gun/energy 503 keV
+#
+/run/beamOn 10
+#
+/gun/energy 504 keV
+#
+/run/beamOn 10
+#
+/gun/energy 505 keV
+#
+/run/beamOn 10
+#
+/gun/energy 506 keV
+#
+/run/beamOn 10
+#
+/gun/energy 507 keV
+#
+/run/beamOn 10
+#
+/gun/energy 508 keV
+#
+/run/beamOn 10
+#
+/gun/energy 509 keV
+#
+/run/beamOn 10
+#
+/gun/energy 510 keV
+#
+/run/beamOn 10
+#
+/gun/energy 511 keV
+#
+/run/beamOn 10
+#
+/gun/energy 512 keV
+#
+/run/beamOn 10
+#
+/gun/energy 513 keV
+#
+/run/beamOn 10
+#
+/gun/energy 514 keV
+#
+/run/beamOn 10
+#
+/gun/energy 515 keV
+#
+/run/beamOn 10
+#
+/gun/energy 516 keV
+#
+/run/beamOn 10
+#
+/gun/energy 517 keV
+#
+/run/beamOn 10
+#
+/gun/energy 518 keV
+#
+/run/beamOn 10
+#
+/gun/energy 519 keV
+#
+/run/beamOn 10
+#
+/gun/energy 520 keV
+#
+/run/beamOn 10
+#
+/gun/energy 521 keV
+#
+/run/beamOn 10
+#
+/gun/energy 522 keV
+#
+/run/beamOn 10
+#
+/gun/energy 523 keV
+#
+/run/beamOn 10
+#
+/gun/energy 524 keV
+#
+/run/beamOn 10
+#
+/gun/energy 525 keV
+#
+/run/beamOn 10
+#
+/gun/energy 526 keV
+#
+/run/beamOn 10
+#
+/gun/energy 527 keV
+#
+/run/beamOn 10
+#
+/gun/energy 528 keV
+#
+/run/beamOn 10
+#
+/gun/energy 529 keV
+#
+/run/beamOn 10
+#
+/gun/energy 530 keV
+#
+/run/beamOn 10
+#
+/gun/energy 531 keV
+#
+/run/beamOn 10
+#
+/gun/energy 532 keV
+#
+/run/beamOn 10
+#
+/gun/energy 533 keV
+#
+/run/beamOn 10
+#
+/gun/energy 534 keV
+#
+/run/beamOn 10
+#
+/gun/energy 535 keV
+#
+/run/beamOn 10
+#
+/gun/energy 536 keV
+#
+/run/beamOn 10
+#
+/gun/energy 537 keV
+#
+/run/beamOn 10
+#
+/gun/energy 538 keV
+#
+/run/beamOn 10
+#
+/gun/energy 539 keV
+#
+/run/beamOn 10
+#
+/gun/energy 540 keV
+#
+/run/beamOn 10
+#
+/gun/energy 541 keV
+#
+/run/beamOn 10
+#
+/gun/energy 542 keV
+#
+/run/beamOn 10
+#
+/gun/energy 543 keV
+#
+/run/beamOn 10
+#
+/gun/energy 544 keV
+#
+/run/beamOn 10
+#
+/gun/energy 545 keV
+#
+/run/beamOn 10
+#
+/gun/energy 546 keV
+#
+/run/beamOn 10
+#
+/gun/energy 547 keV
+#
+/run/beamOn 10
+#
+/gun/energy 548 keV
+#
+/run/beamOn 10
+#
+/gun/energy 549 keV
+#
+/run/beamOn 10
+#
+/gun/energy 550 keV
+#
+/run/beamOn 10
+#
+/gun/energy 551 keV
+#
+/run/beamOn 10
+#
+/gun/energy 552 keV
+#
+/run/beamOn 10
+#
+/gun/energy 553 keV
+#
+/run/beamOn 10
+#
+/gun/energy 554 keV
+#
+/run/beamOn 10
+#
+/gun/energy 555 keV
+#
+/run/beamOn 10
+#
+/gun/energy 556 keV
+#
+/run/beamOn 10
+#
+/gun/energy 557 keV
+#
+/run/beamOn 10
+#
+/gun/energy 558 keV
+#
+/run/beamOn 10
+#
+/gun/energy 559 keV
+#
+/run/beamOn 10
+#
+/gun/energy 560 keV
+#
+/run/beamOn 10
+#
+/gun/energy 561 keV
+#
+/run/beamOn 10
+#
+/gun/energy 562 keV
+#
+/run/beamOn 10
+#
+/gun/energy 563 keV
+#
+/run/beamOn 10
+#
+/gun/energy 564 keV
+#
+/run/beamOn 10
+#
+/gun/energy 565 keV
+#
+/run/beamOn 10
+#
+/gun/energy 566 keV
+#
+/run/beamOn 10
+#
+/gun/energy 567 keV
+#
+/run/beamOn 10
+#
+/gun/energy 568 keV
+#
+/run/beamOn 10
+#
+/gun/energy 569 keV
+#
+/run/beamOn 10
+#
+/gun/energy 570 keV
+#
+/run/beamOn 10
+#
+/gun/energy 571 keV
+#
+/run/beamOn 10
+#
+/gun/energy 572 keV
+#
+/run/beamOn 10
+#
+/gun/energy 573 keV
+#
+/run/beamOn 10
+#
+/gun/energy 574 keV
+#
+/run/beamOn 10
+#
+/gun/energy 575 keV
+#
+/run/beamOn 10
+#
+/gun/energy 576 keV
+#
+/run/beamOn 10
+#
+/gun/energy 577 keV
+#
+/run/beamOn 10
+#
+/gun/energy 578 keV
+#
+/run/beamOn 10
+#
+/gun/energy 579 keV
+#
+/run/beamOn 10
+#
+/gun/energy 580 keV
+#
+/run/beamOn 10
+#
+/gun/energy 581 keV
+#
+/run/beamOn 10
+#
+/gun/energy 582 keV
+#
+/run/beamOn 10
+#
+/gun/energy 583 keV
+#
+/run/beamOn 10
+#
+/gun/energy 584 keV
+#
+/run/beamOn 10
+#
+/gun/energy 585 keV
+#
+/run/beamOn 10
+#
+/gun/energy 586 keV
+#
+/run/beamOn 10
+#
+/gun/energy 587 keV
+#
+/run/beamOn 10
+#
+/gun/energy 588 keV
+#
+/run/beamOn 10
+#
+/gun/energy 589 keV
+#
+/run/beamOn 10
+#
+/gun/energy 590 keV
+#
+/run/beamOn 10
+#
+/gun/energy 591 keV
+#
+/run/beamOn 10
+#
+/gun/energy 592 keV
+#
+/run/beamOn 10
+#
+/gun/energy 593 keV
+#
+/run/beamOn 10
+#
+/gun/energy 594 keV
+#
+/run/beamOn 10
+#
+/gun/energy 595 keV
+#
+/run/beamOn 10
+#
+/gun/energy 596 keV
+#
+/run/beamOn 10
+#
+/gun/energy 597 keV
+#
+/run/beamOn 10
+#
+/gun/energy 598 keV
+#
+/run/beamOn 10
+#
+/gun/energy 599 keV
+#
+/run/beamOn 10
+#
+/gun/energy 600 keV
+#
+/run/beamOn 10
+#
+/gun/energy 601 keV
+#
+/run/beamOn 10
+#
+/gun/energy 602 keV
+#
+/run/beamOn 10
+#
+/gun/energy 603 keV
+#
+/run/beamOn 10
+#
+/gun/energy 604 keV
+#
+/run/beamOn 10
+#
+/gun/energy 605 keV
+#
+/run/beamOn 10
+#
+/gun/energy 606 keV
+#
+/run/beamOn 10
+#
+/gun/energy 607 keV
+#
+/run/beamOn 10
+#
+/gun/energy 608 keV
+#
+/run/beamOn 10
+#
+/gun/energy 609 keV
+#
+/run/beamOn 10
+#
+/gun/energy 610 keV
+#
+/run/beamOn 10
+#
+/gun/energy 611 keV
+#
+/run/beamOn 10
+#
+/gun/energy 612 keV
+#
+/run/beamOn 10
+#
+/gun/energy 613 keV
+#
+/run/beamOn 10
+#
+/gun/energy 614 keV
+#
+/run/beamOn 10
+#
+/gun/energy 615 keV
+#
+/run/beamOn 10
+#
+/gun/energy 616 keV
+#
+/run/beamOn 10
+#
+/gun/energy 617 keV
+#
+/run/beamOn 10
+#
+/gun/energy 618 keV
+#
+/run/beamOn 10
+#
+/gun/energy 619 keV
+#
+/run/beamOn 10
+#
+/gun/energy 620 keV
+#
+/run/beamOn 10
+#
+/gun/energy 621 keV
+#
+/run/beamOn 10
+#
+/gun/energy 622 keV
+#
+/run/beamOn 10
+#
+/gun/energy 623 keV
+#
+/run/beamOn 10
+#
+/gun/energy 624 keV
+#
+/run/beamOn 10
+#
+/gun/energy 625 keV
+#
+/run/beamOn 10
+#
+/gun/energy 626 keV
+#
+/run/beamOn 10
+#
+/gun/energy 627 keV
+#
+/run/beamOn 10
+#
+/gun/energy 628 keV
+#
+/run/beamOn 10
+#
+/gun/energy 629 keV
+#
+/run/beamOn 10
+#
+/gun/energy 630 keV
+#
+/run/beamOn 10
+#
+/gun/energy 631 keV
+#
+/run/beamOn 10
+#
+/gun/energy 632 keV
+#
+/run/beamOn 10
+#
+/gun/energy 633 keV
+#
+/run/beamOn 10
+#
+/gun/energy 634 keV
+#
+/run/beamOn 10
+#
+/gun/energy 635 keV
+#
+/run/beamOn 10
+#
+/gun/energy 636 keV
+#
+/run/beamOn 10
+#
+/gun/energy 637 keV
+#
+/run/beamOn 10
+#
+/gun/energy 638 keV
+#
+/run/beamOn 10
+#
+/gun/energy 639 keV
+#
+/run/beamOn 10
+#
+/gun/energy 640 keV
+#
+/run/beamOn 10
+#
+/gun/energy 641 keV
+#
+/run/beamOn 10
+#
+/gun/energy 642 keV
+#
+/run/beamOn 10
+#
+/gun/energy 643 keV
+#
+/run/beamOn 10
+#
+/gun/energy 644 keV
+#
+/run/beamOn 10
+#
+/gun/energy 645 keV
+#
+/run/beamOn 10
+#
+/gun/energy 646 keV
+#
+/run/beamOn 10
+#
+/gun/energy 647 keV
+#
+/run/beamOn 10
+#
+/gun/energy 648 keV
+#
+/run/beamOn 10
+#
+/gun/energy 649 keV
+#
+/run/beamOn 10
+#
+/gun/energy 650 keV
+#
+/run/beamOn 10
+#
+/gun/energy 651 keV
+#
+/run/beamOn 10
+#
+/gun/energy 652 keV
+#
+/run/beamOn 10
+#
+/gun/energy 653 keV
+#
+/run/beamOn 10
+#
+/gun/energy 654 keV
+#
+/run/beamOn 10
+#
+/gun/energy 655 keV
+#
+/run/beamOn 10
+#
+/gun/energy 656 keV
+#
+/run/beamOn 10
+#
+/gun/energy 657 keV
+#
+/run/beamOn 10
+#
+/gun/energy 658 keV
+#
+/run/beamOn 10
+#
+/gun/energy 659 keV
+#
+/run/beamOn 10
+#
+/gun/energy 660 keV
+#
+/run/beamOn 10
+#
+/gun/energy 661 keV
+#
+/run/beamOn 10
+#
+/gun/energy 662 keV
+#
+/run/beamOn 10
+#
+/gun/energy 663 keV
+#
+/run/beamOn 10
+#
+/gun/energy 664 keV
+#
+/run/beamOn 10
+#
+/gun/energy 665 keV
+#
+/run/beamOn 10
+#
+/gun/energy 666 keV
+#
+/run/beamOn 10
+#
+/gun/energy 667 keV
+#
+/run/beamOn 10
+#
+/gun/energy 668 keV
+#
+/run/beamOn 10
+#
+/gun/energy 669 keV
+#
+/run/beamOn 10
+#
+/gun/energy 670 keV
+#
+/run/beamOn 10
+#
+/gun/energy 671 keV
+#
+/run/beamOn 10
+#
+/gun/energy 672 keV
+#
+/run/beamOn 10
+#
+/gun/energy 673 keV
+#
+/run/beamOn 10
+#
+/gun/energy 674 keV
+#
+/run/beamOn 10
+#
+/gun/energy 675 keV
+#
+/run/beamOn 10
+#
+/gun/energy 676 keV
+#
+/run/beamOn 10
+#
+/gun/energy 677 keV
+#
+/run/beamOn 10
+#
+/gun/energy 678 keV
+#
+/run/beamOn 10
+#
+/gun/energy 679 keV
+#
+/run/beamOn 10
+#
+/gun/energy 680 keV
+#
+/run/beamOn 10
+#
+/gun/energy 681 keV
+#
+/run/beamOn 10
+#
+/gun/energy 682 keV
+#
+/run/beamOn 10
+#
+/gun/energy 683 keV
+#
+/run/beamOn 10
+#
+/gun/energy 684 keV
+#
+/run/beamOn 10
+#
+/gun/energy 685 keV
+#
+/run/beamOn 10
+#
+/gun/energy 686 keV
+#
+/run/beamOn 10
+#
+/gun/energy 687 keV
+#
+/run/beamOn 10
+#
+/gun/energy 688 keV
+#
+/run/beamOn 10
+#
+/gun/energy 689 keV
+#
+/run/beamOn 10
+#
+/gun/energy 690 keV
+#
+/run/beamOn 10
+#
+/gun/energy 691 keV
+#
+/run/beamOn 10
+#
+/gun/energy 692 keV
+#
+/run/beamOn 10
+#
+/gun/energy 693 keV
+#
+/run/beamOn 10
+#
+/gun/energy 694 keV
+#
+/run/beamOn 10
+#
+/gun/energy 695 keV
+#
+/run/beamOn 10
+#
+/gun/energy 696 keV
+#
+/run/beamOn 10
+#
+/gun/energy 697 keV
+#
+/run/beamOn 10
+#
+/gun/energy 698 keV
+#
+/run/beamOn 10
+#
+/gun/energy 699 keV
+#
+/run/beamOn 10
+#
+/gun/energy 700 keV
+#
+/run/beamOn 10
+#
+/gun/energy 701 keV
+#
+/run/beamOn 10
+#
+/gun/energy 702 keV
+#
+/run/beamOn 10
+#
+/gun/energy 703 keV
+#
+/run/beamOn 10
+#
+/gun/energy 704 keV
+#
+/run/beamOn 10
+#
+/gun/energy 705 keV
+#
+/run/beamOn 10
+#
+/gun/energy 706 keV
+#
+/run/beamOn 10
+#
+/gun/energy 707 keV
+#
+/run/beamOn 10
+#
+/gun/energy 708 keV
+#
+/run/beamOn 10
+#
+/gun/energy 709 keV
+#
+/run/beamOn 10
+#
+/gun/energy 710 keV
+#
+/run/beamOn 10
+#
+/gun/energy 711 keV
+#
+/run/beamOn 10
+#
+/gun/energy 712 keV
+#
+/run/beamOn 10
+#
+/gun/energy 713 keV
+#
+/run/beamOn 10
+#
+/gun/energy 714 keV
+#
+/run/beamOn 10
+#
+/gun/energy 715 keV
+#
+/run/beamOn 10
+#
+/gun/energy 716 keV
+#
+/run/beamOn 10
+#
+/gun/energy 717 keV
+#
+/run/beamOn 10
+#
+/gun/energy 718 keV
+#
+/run/beamOn 10
+#
+/gun/energy 719 keV
+#
+/run/beamOn 10
+#
+/gun/energy 720 keV
+#
+/run/beamOn 10
+#
+/gun/energy 721 keV
+#
+/run/beamOn 10
+#
+/gun/energy 722 keV
+#
+/run/beamOn 10
+#
+/gun/energy 723 keV
+#
+/run/beamOn 10
+#
+/gun/energy 724 keV
+#
+/run/beamOn 10
+#
+/gun/energy 725 keV
+#
+/run/beamOn 10
+#
+/gun/energy 726 keV
+#
+/run/beamOn 10
+#
+/gun/energy 727 keV
+#
+/run/beamOn 10
+#
+/gun/energy 728 keV
+#
+/run/beamOn 10
+#
+/gun/energy 729 keV
+#
+/run/beamOn 10
+#
+/gun/energy 730 keV
+#
+/run/beamOn 10
+#
+/gun/energy 731 keV
+#
+/run/beamOn 10
+#
+/gun/energy 732 keV
+#
+/run/beamOn 10
+#
+/gun/energy 733 keV
+#
+/run/beamOn 10
+#
+/gun/energy 734 keV
+#
+/run/beamOn 10
+#
+/gun/energy 735 keV
+#
+/run/beamOn 10
+#
+/gun/energy 736 keV
+#
+/run/beamOn 10
+#
+/gun/energy 737 keV
+#
+/run/beamOn 10
+#
+/gun/energy 738 keV
+#
+/run/beamOn 10
+#
+/gun/energy 739 keV
+#
+/run/beamOn 10
+#
+/gun/energy 740 keV
+#
+/run/beamOn 10
+#
+/gun/energy 741 keV
+#
+/run/beamOn 10
+#
+/gun/energy 742 keV
+#
+/run/beamOn 10
+#
+/gun/energy 743 keV
+#
+/run/beamOn 10
+#
+/gun/energy 744 keV
+#
+/run/beamOn 10
+#
+/gun/energy 745 keV
+#
+/run/beamOn 10
+#
+/gun/energy 746 keV
+#
+/run/beamOn 10
+#
+/gun/energy 747 keV
+#
+/run/beamOn 10
+#
+/gun/energy 748 keV
+#
+/run/beamOn 10
+#
+/gun/energy 749 keV
+#
+/run/beamOn 10
+#
+/gun/energy 750 keV
+#
+/run/beamOn 10
+#
+/gun/energy 751 keV
+#
+/run/beamOn 10
+#
+/gun/energy 752 keV
+#
+/run/beamOn 10
+#
+/gun/energy 753 keV
+#
+/run/beamOn 10
+#
+/gun/energy 754 keV
+#
+/run/beamOn 10
+#
+/gun/energy 755 keV
+#
+/run/beamOn 10
+#
+/gun/energy 756 keV
+#
+/run/beamOn 10
+#
+/gun/energy 757 keV
+#
+/run/beamOn 10
+#
+/gun/energy 758 keV
+#
+/run/beamOn 10
+#
+/gun/energy 759 keV
+#
+/run/beamOn 10
+#
+/gun/energy 760 keV
+#
+/run/beamOn 10
+#
+/gun/energy 761 keV
+#
+/run/beamOn 10
+#
+/gun/energy 762 keV
+#
+/run/beamOn 10
+#
+/gun/energy 763 keV
+#
+/run/beamOn 10
+#
+/gun/energy 764 keV
+#
+/run/beamOn 10
+#
+/gun/energy 765 keV
+#
+/run/beamOn 10
+#
+/gun/energy 766 keV
+#
+/run/beamOn 10
+#
+/gun/energy 767 keV
+#
+/run/beamOn 10
+#
+/gun/energy 768 keV
+#
+/run/beamOn 10
+#
+/gun/energy 769 keV
+#
+/run/beamOn 10
+#
+/gun/energy 770 keV
+#
+/run/beamOn 10
+#
+/gun/energy 771 keV
+#
+/run/beamOn 10
+#
+/gun/energy 772 keV
+#
+/run/beamOn 10
+#
+/gun/energy 773 keV
+#
+/run/beamOn 10
+#
+/gun/energy 774 keV
+#
+/run/beamOn 10
+#
+/gun/energy 775 keV
+#
+/run/beamOn 10
+#
+/gun/energy 776 keV
+#
+/run/beamOn 10
+#
+/gun/energy 777 keV
+#
+/run/beamOn 10
+#
+/gun/energy 778 keV
+#
+/run/beamOn 10
+#
+/gun/energy 779 keV
+#
+/run/beamOn 10
+#
+/gun/energy 780 keV
+#
+/run/beamOn 10
+#
+/gun/energy 781 keV
+#
+/run/beamOn 10
+#
+/gun/energy 782 keV
+#
+/run/beamOn 10
+#
+/gun/energy 783 keV
+#
+/run/beamOn 10
+#
+/gun/energy 784 keV
+#
+/run/beamOn 10
+#
+/gun/energy 785 keV
+#
+/run/beamOn 10
+#
+/gun/energy 786 keV
+#
+/run/beamOn 10
+#
+/gun/energy 787 keV
+#
+/run/beamOn 10
+#
+/gun/energy 788 keV
+#
+/run/beamOn 10
+#
+/gun/energy 789 keV
+#
+/run/beamOn 10
+#
+/gun/energy 790 keV
+#
+/run/beamOn 10
+#
+/gun/energy 791 keV
+#
+/run/beamOn 10
+#
+/gun/energy 792 keV
+#
+/run/beamOn 10
+#
+/gun/energy 793 keV
+#
+/run/beamOn 10
+#
+/gun/energy 794 keV
+#
+/run/beamOn 10
+#
+/gun/energy 795 keV
+#
+/run/beamOn 10
+#
+/gun/energy 796 keV
+#
+/run/beamOn 10
+#
+/gun/energy 797 keV
+#
+/run/beamOn 10
+#
+/gun/energy 798 keV
+#
+/run/beamOn 10
+#
+/gun/energy 799 keV
+#
+/run/beamOn 10
+#
+/gun/energy 800 keV
+#
+/run/beamOn 10
+#
+/gun/energy 801 keV
+#
+/run/beamOn 10
+#
+/gun/energy 802 keV
+#
+/run/beamOn 10
+#
+/gun/energy 803 keV
+#
+/run/beamOn 10
+#
+/gun/energy 804 keV
+#
+/run/beamOn 10
+#
+/gun/energy 805 keV
+#
+/run/beamOn 10
+#
+/gun/energy 806 keV
+#
+/run/beamOn 10
+#
+/gun/energy 807 keV
+#
+/run/beamOn 10
+#
+/gun/energy 808 keV
+#
+/run/beamOn 10
+#
+/gun/energy 809 keV
+#
+/run/beamOn 10
+#
+/gun/energy 810 keV
+#
+/run/beamOn 10
+#
+/gun/energy 811 keV
+#
+/run/beamOn 10
+#
+/gun/energy 812 keV
+#
+/run/beamOn 10
+#
+/gun/energy 813 keV
+#
+/run/beamOn 10
+#
+/gun/energy 814 keV
+#
+/run/beamOn 10
+#
+/gun/energy 815 keV
+#
+/run/beamOn 10
+#
+/gun/energy 816 keV
+#
+/run/beamOn 10
+#
+/gun/energy 817 keV
+#
+/run/beamOn 10
+#
+/gun/energy 818 keV
+#
+/run/beamOn 10
+#
+/gun/energy 819 keV
+#
+/run/beamOn 10
+#
+/gun/energy 820 keV
+#
+/run/beamOn 10
+#
+/gun/energy 821 keV
+#
+/run/beamOn 10
+#
+/gun/energy 822 keV
+#
+/run/beamOn 10
+#
+/gun/energy 823 keV
+#
+/run/beamOn 10
+#
+/gun/energy 824 keV
+#
+/run/beamOn 10
+#
+/gun/energy 825 keV
+#
+/run/beamOn 10
+#
+/gun/energy 826 keV
+#
+/run/beamOn 10
+#
+/gun/energy 827 keV
+#
+/run/beamOn 10
+#
+/gun/energy 828 keV
+#
+/run/beamOn 10
+#
+/gun/energy 829 keV
+#
+/run/beamOn 10
+#
+/gun/energy 830 keV
+#
+/run/beamOn 10
+#
+/gun/energy 831 keV
+#
+/run/beamOn 10
+#
+/gun/energy 832 keV
+#
+/run/beamOn 10
+#
+/gun/energy 833 keV
+#
+/run/beamOn 10
+#
+/gun/energy 834 keV
+#
+/run/beamOn 10
+#
+/gun/energy 835 keV
+#
+/run/beamOn 10
+#
+/gun/energy 836 keV
+#
+/run/beamOn 10
+#
+/gun/energy 837 keV
+#
+/run/beamOn 10
+#
+/gun/energy 838 keV
+#
+/run/beamOn 10
+#
+/gun/energy 839 keV
+#
+/run/beamOn 10
+#
+/gun/energy 840 keV
+#
+/run/beamOn 10
+#
+/gun/energy 841 keV
+#
+/run/beamOn 10
+#
+/gun/energy 842 keV
+#
+/run/beamOn 10
+#
+/gun/energy 843 keV
+#
+/run/beamOn 10
+#
+/gun/energy 844 keV
+#
+/run/beamOn 10
+#
+/gun/energy 845 keV
+#
+/run/beamOn 10
+#
+/gun/energy 846 keV
+#
+/run/beamOn 10
+#
+/gun/energy 847 keV
+#
+/run/beamOn 10
+#
+/gun/energy 848 keV
+#
+/run/beamOn 10
+#
+/gun/energy 849 keV
+#
+/run/beamOn 10
+#
+/gun/energy 850 keV
+#
+/run/beamOn 10
+#
+/gun/energy 851 keV
+#
+/run/beamOn 10
+#
+/gun/energy 852 keV
+#
+/run/beamOn 10
+#
+/gun/energy 853 keV
+#
+/run/beamOn 10
+#
+/gun/energy 854 keV
+#
+/run/beamOn 10
+#
+/gun/energy 855 keV
+#
+/run/beamOn 10
+#
+/gun/energy 856 keV
+#
+/run/beamOn 10
+#
+/gun/energy 857 keV
+#
+/run/beamOn 10
+#
+/gun/energy 858 keV
+#
+/run/beamOn 10
+#
+/gun/energy 859 keV
+#
+/run/beamOn 10
+#
+/gun/energy 860 keV
+#
+/run/beamOn 10
+#
+/gun/energy 861 keV
+#
+/run/beamOn 10
+#
+/gun/energy 862 keV
+#
+/run/beamOn 10
+#
+/gun/energy 863 keV
+#
+/run/beamOn 10
+#
+/gun/energy 864 keV
+#
+/run/beamOn 10
+#
+/gun/energy 865 keV
+#
+/run/beamOn 10
+#
+/gun/energy 866 keV
+#
+/run/beamOn 10
+#
+/gun/energy 867 keV
+#
+/run/beamOn 10
+#
+/gun/energy 868 keV
+#
+/run/beamOn 10
+#
+/gun/energy 869 keV
+#
+/run/beamOn 10
+#
+/gun/energy 870 keV
+#
+/run/beamOn 10
+#
+/gun/energy 871 keV
+#
+/run/beamOn 10
+#
+/gun/energy 872 keV
+#
+/run/beamOn 10
+#
+/gun/energy 873 keV
+#
+/run/beamOn 10
+#
+/gun/energy 874 keV
+#
+/run/beamOn 10
+#
+/gun/energy 875 keV
+#
+/run/beamOn 10
+#
+/gun/energy 876 keV
+#
+/run/beamOn 10
+#
+/gun/energy 877 keV
+#
+/run/beamOn 10
+#
+/gun/energy 878 keV
+#
+/run/beamOn 10
+#
+/gun/energy 879 keV
+#
+/run/beamOn 10
+#
+/gun/energy 880 keV
+#
+/run/beamOn 10
+#
+/gun/energy 881 keV
+#
+/run/beamOn 10
+#
+/gun/energy 882 keV
+#
+/run/beamOn 10
+#
+/gun/energy 883 keV
+#
+/run/beamOn 10
+#
+/gun/energy 884 keV
+#
+/run/beamOn 10
+#
+/gun/energy 885 keV
+#
+/run/beamOn 10
+#
+/gun/energy 886 keV
+#
+/run/beamOn 10
+#
+/gun/energy 887 keV
+#
+/run/beamOn 10
+#
+/gun/energy 888 keV
+#
+/run/beamOn 10
+#
+/gun/energy 889 keV
+#
+/run/beamOn 10
+#
+/gun/energy 890 keV
+#
+/run/beamOn 10
+#
+/gun/energy 891 keV
+#
+/run/beamOn 10
+#
+/gun/energy 892 keV
+#
+/run/beamOn 10
+#
+/gun/energy 893 keV
+#
+/run/beamOn 10
+#
+/gun/energy 894 keV
+#
+/run/beamOn 10
+#
+/gun/energy 895 keV
+#
+/run/beamOn 10
+#
+/gun/energy 896 keV
+#
+/run/beamOn 10
+#
+/gun/energy 897 keV
+#
+/run/beamOn 10
+#
+/gun/energy 898 keV
+#
+/run/beamOn 10
+#
+/gun/energy 899 keV
+#
+/run/beamOn 10
+#
+/gun/energy 900 keV
+#
+/run/beamOn 10
+#
+/gun/energy 901 keV
+#
+/run/beamOn 10
+#
+/gun/energy 902 keV
+#
+/run/beamOn 10
+#
+/gun/energy 903 keV
+#
+/run/beamOn 10
+#
+/gun/energy 904 keV
+#
+/run/beamOn 10
+#
+/gun/energy 905 keV
+#
+/run/beamOn 10
+#
+/gun/energy 906 keV
+#
+/run/beamOn 10
+#
+/gun/energy 907 keV
+#
+/run/beamOn 10
+#
+/gun/energy 908 keV
+#
+/run/beamOn 10
+#
+/gun/energy 909 keV
+#
+/run/beamOn 10
+#
+/gun/energy 910 keV
+#
+/run/beamOn 10
+#
+/gun/energy 911 keV
+#
+/run/beamOn 10
+#
+/gun/energy 912 keV
+#
+/run/beamOn 10
+#
+/gun/energy 913 keV
+#
+/run/beamOn 10
+#
+/gun/energy 914 keV
+#
+/run/beamOn 10
+#
+/gun/energy 915 keV
+#
+/run/beamOn 10
+#
+/gun/energy 916 keV
+#
+/run/beamOn 10
+#
+/gun/energy 917 keV
+#
+/run/beamOn 10
+#
+/gun/energy 918 keV
+#
+/run/beamOn 10
+#
+/gun/energy 919 keV
+#
+/run/beamOn 10
+#
+/gun/energy 920 keV
+#
+/run/beamOn 10
+#
+/gun/energy 921 keV
+#
+/run/beamOn 10
+#
+/gun/energy 922 keV
+#
+/run/beamOn 10
+#
+/gun/energy 923 keV
+#
+/run/beamOn 10
+#
+/gun/energy 924 keV
+#
+/run/beamOn 10
+#
+/gun/energy 925 keV
+#
+/run/beamOn 10
+#
+/gun/energy 926 keV
+#
+/run/beamOn 10
+#
+/gun/energy 927 keV
+#
+/run/beamOn 10
+#
+/gun/energy 928 keV
+#
+/run/beamOn 10
+#
+/gun/energy 929 keV
+#
+/run/beamOn 10
+#
+/gun/energy 930 keV
+#
+/run/beamOn 10
+#
+/gun/energy 931 keV
+#
+/run/beamOn 10
+#
+/gun/energy 932 keV
+#
+/run/beamOn 10
+#
+/gun/energy 933 keV
+#
+/run/beamOn 10
+#
+/gun/energy 934 keV
+#
+/run/beamOn 10
+#
+/gun/energy 935 keV
+#
+/run/beamOn 10
+#
+/gun/energy 936 keV
+#
+/run/beamOn 10
+#
+/gun/energy 937 keV
+#
+/run/beamOn 10
+#
+/gun/energy 938 keV
+#
+/run/beamOn 10
+#
+/gun/energy 939 keV
+#
+/run/beamOn 10
+#
+/gun/energy 940 keV
+#
+/run/beamOn 10
+#
+/gun/energy 941 keV
+#
+/run/beamOn 10
+#
+/gun/energy 942 keV
+#
+/run/beamOn 10
+#
+/gun/energy 943 keV
+#
+/run/beamOn 10
+#
+/gun/energy 944 keV
+#
+/run/beamOn 10
+#
+/gun/energy 945 keV
+#
+/run/beamOn 10
+#
+/gun/energy 946 keV
+#
+/run/beamOn 10
+#
+/gun/energy 947 keV
+#
+/run/beamOn 10
+#
+/gun/energy 948 keV
+#
+/run/beamOn 10
+#
+/gun/energy 949 keV
+#
+/run/beamOn 10
+#
+/gun/energy 950 keV
+#
+/run/beamOn 10
+#
+/gun/energy 951 keV
+#
+/run/beamOn 10
+#
+/gun/energy 952 keV
+#
+/run/beamOn 10
+#
+/gun/energy 953 keV
+#
+/run/beamOn 10
+#
+/gun/energy 954 keV
+#
+/run/beamOn 10
+#
+/gun/energy 955 keV
+#
+/run/beamOn 10
+#
+/gun/energy 956 keV
+#
+/run/beamOn 10
+#
+/gun/energy 957 keV
+#
+/run/beamOn 10
+#
+/gun/energy 958 keV
+#
+/run/beamOn 10
+#
+/gun/energy 959 keV
+#
+/run/beamOn 10
+#
+/gun/energy 960 keV
+#
+/run/beamOn 10
+#
+/gun/energy 961 keV
+#
+/run/beamOn 10
+#
+/gun/energy 962 keV
+#
+/run/beamOn 10
+#
+/gun/energy 963 keV
+#
+/run/beamOn 10
+#
+/gun/energy 964 keV
+#
+/run/beamOn 10
+#
+/gun/energy 965 keV
+#
+/run/beamOn 10
+#
+/gun/energy 966 keV
+#
+/run/beamOn 10
+#
+/gun/energy 967 keV
+#
+/run/beamOn 10
+#
+/gun/energy 968 keV
+#
+/run/beamOn 10
+#
+/gun/energy 969 keV
+#
+/run/beamOn 10
+#
+/gun/energy 970 keV
+#
+/run/beamOn 10
+#
+/gun/energy 971 keV
+#
+/run/beamOn 10
+#
+/gun/energy 972 keV
+#
+/run/beamOn 10
+#
+/gun/energy 973 keV
+#
+/run/beamOn 10
+#
+/gun/energy 974 keV
+#
+/run/beamOn 10
+#
+/gun/energy 975 keV
+#
+/run/beamOn 10
+#
+/gun/energy 976 keV
+#
+/run/beamOn 10
+#
+/gun/energy 977 keV
+#
+/run/beamOn 10
+#
+/gun/energy 978 keV
+#
+/run/beamOn 10
+#
+/gun/energy 979 keV
+#
+/run/beamOn 10
+#
+/gun/energy 980 keV
+#
+/run/beamOn 10
+#
+/gun/energy 981 keV
+#
+/run/beamOn 10
+#
+/gun/energy 982 keV
+#
+/run/beamOn 10
+#
+/gun/energy 983 keV
+#
+/run/beamOn 10
+#
+/gun/energy 984 keV
+#
+/run/beamOn 10
+#
+/gun/energy 985 keV
+#
+/run/beamOn 10
+#
+/gun/energy 986 keV
+#
+/run/beamOn 10
+#
+/gun/energy 987 keV
+#
+/run/beamOn 10
+#
+/gun/energy 988 keV
+#
+/run/beamOn 10
+#
+/gun/energy 989 keV
+#
+/run/beamOn 10
+#
+/gun/energy 990 keV
+#
+/run/beamOn 10
+#
+/gun/energy 991 keV
+#
+/run/beamOn 10
+#
+/gun/energy 992 keV
+#
+/run/beamOn 10
+#
+/gun/energy 993 keV
+#
+/run/beamOn 10
+#
+/gun/energy 994 keV
+#
+/run/beamOn 10
+#
+/gun/energy 995 keV
+#
+/run/beamOn 10
+#
+/gun/energy 996 keV
+#
+/run/beamOn 10
+#
+/gun/energy 997 keV
+#
+/run/beamOn 10
+#
+/gun/energy 998 keV
+#
+/run/beamOn 10
+#
+/gun/energy 999 keV
+#
+/run/beamOn 10
+#
+/gun/energy 1000 keV
+#
+/run/beamOn 10
+#

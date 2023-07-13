@@ -1,0 +1,10 @@
+# ninja log v5
+2	1511	1689141195607585551	CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o	e151254262c8d0ed
+2	1264	1689141195359575903	CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o	9c133e399020ffca
+57	6271	1689148897442268262	CMakeFiles/exampleB1.dir/src/HistoManager.cc.o	59f1aac5698eb631
+2	1558	1689141195654587380	CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o	e70b7a739b7b83d5
+2	4227	1689148928338000512	CMakeFiles/exampleB1.dir/src/EventAction.cc.o	482d7aa29377d7e9
+2	1563	1689141195659587574	CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o	f2459478a85036fc
+2	1760	1689141195855595200	CMakeFiles/exampleB1.dir/src/RunAction.cc.o	1a7266c98f1018a1
+1	2783	1689141196878634993	CMakeFiles/exampleB1.dir/exampleB1.cc.o	72f3ffa16d12faac
+4227	5432	1689148929540029000	exampleB1	88ad5f2ae1484e9c
