@@ -16,8 +16,8 @@ root输出统计主要参考AnaEx01，目前统计在histo里，后续还会继�
 
 
 # 感谢
-感谢CERN的GEANT4和root;
+感谢CERN的GEANT4和root, 可是我不会用;
 
-感谢Microsoft的vscode;
+感谢Microsoft的vscode， 可是我只会用一点点;
 
 感谢组里师兄，和老师。
