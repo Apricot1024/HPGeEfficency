@@ -60,6 +60,21 @@ void EventAction::BeginOfEventAction(const G4Event*)
 
 void EventAction::EndOfEventAction(const G4Event*)
 {
+  // //accumulates statistic
+  // //
+  // fRunAct->FillPerEvent(fEnergyAbs, fEnergyGap, fTrackLAbs, fTrackLGap);
+
+  // //fill histograms
+  // //
+  // fHistoManager->FillHisto(0, fEnergyAbs);
+  // fHistoManager->FillHisto(1, fEnergyGap);
+  // fHistoManager->FillHisto(2, fTrackLAbs);
+  // fHistoManager->FillHisto(3, fTrackLGap);
+
+  // //fill ntuple
+  // //
+  // fHistoManager->FillNtuple(fEnergyAbs, fEnergyGap, fTrackLAbs, fTrackLGap);
+
 
   // const auto generatorAction = static_cast<const PrimaryGeneratorAction*>(
   // G4RunManager::GetRunManager()->GetUserPrimaryGeneratorAction());
@@ -88,7 +103,7 @@ void EventAction::EndOfEventAction(const G4Event*)
   {
     fRunAction->Addfepn(1);
   }
-  }
+}
   
   
 
