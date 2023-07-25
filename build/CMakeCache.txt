@@ -211,6 +211,9 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Path to a program.
 CMAKE_STRIP:FILEPATH=/usr/bin/strip
 
+//Path to a program.
+CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
+
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
 // during the make.  This is useful for debugging only. With Visual
@@ -260,6 +263,12 @@ MOTIF_LIBRARIES:FILEPATH=/usr/lib/libXm.so
 OPENGL_EGL_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a file.
+OPENGL_GLES2_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a file.
+OPENGL_GLES3_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a file.
 OPENGL_GLX_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a file.
@@ -270,6 +279,12 @@ OPENGL_egl_LIBRARY:FILEPATH=/usr/lib/libEGL.so
 
 //Path to a library.
 OPENGL_gl_LIBRARY:FILEPATH=/usr/lib/libGL.so
+
+//Path to a library.
+OPENGL_gles2_LIBRARY:FILEPATH=/usr/lib/libGLESv2.so
+
+//Path to a library.
+OPENGL_gles3_LIBRARY:FILEPATH=/usr/lib/libGLESv2.so
 
 //Path to a library.
 OPENGL_glu_LIBRARY:FILEPATH=/usr/lib/libGLU.so
@@ -365,7 +380,7 @@ X11_Xau_INCLUDE_PATH:PATH=/usr/include
 X11_Xau_LIB:FILEPATH=/usr/lib/libXau.so
 
 //Path to a file.
-X11_Xaw_INCLUDE_PATH:PATH=X11_Xaw_INCLUDE_PATH-NOTFOUND
+X11_Xaw_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
 X11_Xaw_LIB:FILEPATH=/usr/lib/libXaw.so
@@ -509,10 +524,70 @@ X11_xcb_INCLUDE_PATH:PATH=/usr/include
 X11_xcb_LIB:FILEPATH=/usr/lib/libxcb.so
 
 //Path to a file.
+X11_xcb_composite_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_composite_LIB:FILEPATH=/usr/lib/libxcb-composite.so
+
+//Path to a file.
+X11_xcb_cursor_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_cursor_LIB:FILEPATH=/usr/lib/libxcb-cursor.so
+
+//Path to a file.
+X11_xcb_damage_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_damage_LIB:FILEPATH=/usr/lib/libxcb-damage.so
+
+//Path to a file.
+X11_xcb_dpms_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_dpms_LIB:FILEPATH=/usr/lib/libxcb-dpms.so
+
+//Path to a file.
+X11_xcb_dri2_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_dri2_LIB:FILEPATH=/usr/lib/libxcb-dri2.so
+
+//Path to a file.
+X11_xcb_dri3_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_dri3_LIB:FILEPATH=/usr/lib/libxcb-dri3.so
+
+//Path to a file.
+X11_xcb_errors_INCLUDE_PATH:PATH=X11_xcb_errors_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_xcb_errors_LIB:FILEPATH=X11_xcb_errors_LIB-NOTFOUND
+
+//Path to a file.
+X11_xcb_ewmh_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_ewmh_LIB:FILEPATH=/usr/lib/libxcb-ewmh.so
+
+//Path to a file.
+X11_xcb_glx_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_glx_LIB:FILEPATH=/usr/lib/libxcb-glx.so
+
+//Path to a file.
 X11_xcb_icccm_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
 X11_xcb_icccm_LIB:FILEPATH=/usr/lib/libxcb-icccm.so
+
+//Path to a file.
+X11_xcb_image_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_image_LIB:FILEPATH=/usr/lib/libxcb-image.so
 
 //Path to a file.
 X11_xcb_keysyms_INCLUDE_PATH:PATH=/usr/include
@@ -521,10 +596,64 @@ X11_xcb_keysyms_INCLUDE_PATH:PATH=/usr/include
 X11_xcb_keysyms_LIB:FILEPATH=/usr/lib/libxcb-keysyms.so
 
 //Path to a file.
+X11_xcb_present_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_present_LIB:FILEPATH=/usr/lib/libxcb-present.so
+
+//Path to a file.
 X11_xcb_randr_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
 X11_xcb_randr_LIB:FILEPATH=/usr/lib/libxcb-randr.so
+
+//Path to a file.
+X11_xcb_record_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_record_LIB:FILEPATH=/usr/lib/libxcb-record.so
+
+//Path to a file.
+X11_xcb_render_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_render_LIB:FILEPATH=/usr/lib/libxcb-render.so
+
+//Path to a file.
+X11_xcb_render_util_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_render_util_LIB:FILEPATH=/usr/lib/libxcb-render-util.so
+
+//Path to a file.
+X11_xcb_res_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_res_LIB:FILEPATH=/usr/lib/libxcb-res.so
+
+//Path to a file.
+X11_xcb_screensaver_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_screensaver_LIB:FILEPATH=/usr/lib/libxcb-screensaver.so
+
+//Path to a file.
+X11_xcb_shape_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_shape_LIB:FILEPATH=/usr/lib/libxcb-shape.so
+
+//Path to a file.
+X11_xcb_shm_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_shm_LIB:FILEPATH=/usr/lib/libxcb-shm.so
+
+//Path to a file.
+X11_xcb_sync_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_sync_LIB:FILEPATH=/usr/lib/libxcb-sync.so
 
 //Path to a file.
 X11_xcb_util_INCLUDE_PATH:PATH=/usr/include
@@ -533,19 +662,58 @@ X11_xcb_util_INCLUDE_PATH:PATH=/usr/include
 X11_xcb_util_LIB:FILEPATH=/usr/lib/libxcb-util.so
 
 //Path to a file.
+X11_xcb_xf86dri_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_xf86dri_LIB:FILEPATH=/usr/lib/libxcb-xf86dri.so
+
+//Path to a file.
 X11_xcb_xfixes_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
 X11_xcb_xfixes_LIB:FILEPATH=/usr/lib/libxcb-xfixes.so
 
+//Path to a file.
+X11_xcb_xinerama_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_xinerama_LIB:FILEPATH=/usr/lib/libxcb-xinerama.so
+
+//Path to a file.
+X11_xcb_xinput_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_xinput_LIB:FILEPATH=/usr/lib/libxcb-xinput.so
+
+//Path to a file.
+X11_xcb_xkb_INCLUDE_PATH:PATH=/usr/include
+
 //Path to a library.
 X11_xcb_xkb_LIB:FILEPATH=/usr/lib/libxcb-xkb.so
+
+//Path to a file.
+X11_xcb_xrm_INCLUDE_PATH:PATH=X11_xcb_xrm_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_xcb_xrm_LIB:FILEPATH=X11_xcb_xrm_LIB-NOTFOUND
 
 //Path to a file.
 X11_xcb_xtest_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
 X11_xcb_xtest_LIB:FILEPATH=/usr/lib/libxcb-xtest.so
+
+//Path to a file.
+X11_xcb_xv_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_xv_LIB:FILEPATH=/usr/lib/libxcb-xv.so
+
+//Path to a file.
+X11_xcb_xvmc_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_xvmc_LIB:FILEPATH=/usr/lib/libxcb-xvmc.so
 
 //Path to a file.
 X11_xkbcommon_INCLUDE_PATH:PATH=/usr/include
@@ -597,9 +765,9 @@ CMAKE_CACHEFILE_DIR:INTERNAL=/home/apricot/Documents/Science/HPGe_Geant4/workdir
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=26
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=27
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=4
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=0
 //Path to CMake executable.
 CMAKE_COMMAND:INTERNAL=/usr/bin/cmake
 //Path to cpack program executable.
@@ -737,6 +905,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_STRIP
 CMAKE_STRIP-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_TAPI
+CMAKE_TAPI-ADVANCED:INTERNAL=1
 //uname command
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
@@ -748,7 +918,7 @@ EXPAT_LIBRARY-ADVANCED:INTERNAL=1
 //Details about finding EXPAT
 FIND_PACKAGE_MESSAGE_DETAILS_EXPAT:INTERNAL=[/usr/lib/libexpat.so][/usr/include][v2.5.0(2.5.0)]
 //Details about finding Freetype
-FIND_PACKAGE_MESSAGE_DETAILS_Freetype:INTERNAL=[/usr/lib/libfreetype.so][/usr/include/freetype2][v2.13.1(2.13.0)]
+FIND_PACKAGE_MESSAGE_DETAILS_Freetype:INTERNAL=[/usr/lib/libfreetype.so][/usr/include/freetype2][v2.13.1(2.13.1)]
 //Details about finding Geant4
 FIND_PACKAGE_MESSAGE_DETAILS_Geant4:INTERNAL=[/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/Geant4Config.cmake][v11.1.1()]
 //Details about finding Motif
@@ -779,6 +949,10 @@ MOTIF_INCLUDE_DIR-ADVANCED:INTERNAL=1
 MOTIF_LIBRARIES-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_EGL_INCLUDE_DIR
 OPENGL_EGL_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_GLES2_INCLUDE_DIR
+OPENGL_GLES2_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_GLES3_INCLUDE_DIR
+OPENGL_GLES3_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_GLX_INCLUDE_DIR
 OPENGL_GLX_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_INCLUDE_DIR
@@ -787,6 +961,10 @@ OPENGL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 OPENGL_egl_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_gl_LIBRARY
 OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_gles2_LIBRARY
+OPENGL_gles2_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_gles3_LIBRARY
+OPENGL_gles3_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_glu_LIBRARY
 OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_glx_LIBRARY
@@ -999,32 +1177,132 @@ X11_dpms_INCLUDE_PATH-ADVANCED:INTERNAL=1
 X11_xcb_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xcb_LIB
 X11_xcb_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_composite_INCLUDE_PATH
+X11_xcb_composite_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_composite_LIB
+X11_xcb_composite_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_cursor_INCLUDE_PATH
+X11_xcb_cursor_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_cursor_LIB
+X11_xcb_cursor_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_damage_INCLUDE_PATH
+X11_xcb_damage_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_damage_LIB
+X11_xcb_damage_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_dpms_INCLUDE_PATH
+X11_xcb_dpms_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_dpms_LIB
+X11_xcb_dpms_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_dri2_INCLUDE_PATH
+X11_xcb_dri2_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_dri2_LIB
+X11_xcb_dri2_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_dri3_INCLUDE_PATH
+X11_xcb_dri3_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_dri3_LIB
+X11_xcb_dri3_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_errors_INCLUDE_PATH
+X11_xcb_errors_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_errors_LIB
+X11_xcb_errors_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_ewmh_INCLUDE_PATH
+X11_xcb_ewmh_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_ewmh_LIB
+X11_xcb_ewmh_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_glx_INCLUDE_PATH
+X11_xcb_glx_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_glx_LIB
+X11_xcb_glx_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xcb_icccm_INCLUDE_PATH
 X11_xcb_icccm_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xcb_icccm_LIB
 X11_xcb_icccm_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_image_INCLUDE_PATH
+X11_xcb_image_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_image_LIB
+X11_xcb_image_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xcb_keysyms_INCLUDE_PATH
 X11_xcb_keysyms_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xcb_keysyms_LIB
 X11_xcb_keysyms_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_present_INCLUDE_PATH
+X11_xcb_present_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_present_LIB
+X11_xcb_present_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xcb_randr_INCLUDE_PATH
 X11_xcb_randr_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xcb_randr_LIB
 X11_xcb_randr_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_record_INCLUDE_PATH
+X11_xcb_record_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_record_LIB
+X11_xcb_record_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_render_INCLUDE_PATH
+X11_xcb_render_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_render_LIB
+X11_xcb_render_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_render_util_INCLUDE_PATH
+X11_xcb_render_util_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_render_util_LIB
+X11_xcb_render_util_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_res_INCLUDE_PATH
+X11_xcb_res_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_res_LIB
+X11_xcb_res_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_screensaver_INCLUDE_PATH
+X11_xcb_screensaver_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_screensaver_LIB
+X11_xcb_screensaver_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_shape_INCLUDE_PATH
+X11_xcb_shape_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_shape_LIB
+X11_xcb_shape_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_shm_INCLUDE_PATH
+X11_xcb_shm_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_shm_LIB
+X11_xcb_shm_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_sync_INCLUDE_PATH
+X11_xcb_sync_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_sync_LIB
+X11_xcb_sync_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xcb_util_INCLUDE_PATH
 X11_xcb_util_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xcb_util_LIB
 X11_xcb_util_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_xf86dri_INCLUDE_PATH
+X11_xcb_xf86dri_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_xf86dri_LIB
+X11_xcb_xf86dri_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xcb_xfixes_INCLUDE_PATH
 X11_xcb_xfixes_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xcb_xfixes_LIB
 X11_xcb_xfixes_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_xinerama_INCLUDE_PATH
+X11_xcb_xinerama_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_xinerama_LIB
+X11_xcb_xinerama_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_xinput_INCLUDE_PATH
+X11_xcb_xinput_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_xinput_LIB
+X11_xcb_xinput_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xcb_xkb_LIB
 X11_xcb_xkb_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_xrm_INCLUDE_PATH
+X11_xcb_xrm_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_xrm_LIB
+X11_xcb_xrm_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xcb_xtest_INCLUDE_PATH
 X11_xcb_xtest_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xcb_xtest_LIB
 X11_xcb_xtest_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_xv_INCLUDE_PATH
+X11_xcb_xv_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_xv_LIB
+X11_xcb_xv_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_xvmc_INCLUDE_PATH
+X11_xcb_xvmc_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_xvmc_LIB
+X11_xcb_xvmc_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xkbcommon_INCLUDE_PATH
 X11_xkbcommon_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xkbcommon_LIB

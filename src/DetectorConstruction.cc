@@ -132,8 +132,8 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 
   // Trapezoid shape
   G4double HPGe_pRMin = 0;
-  G4double HPGe_pRMax = 35;
-  G4double HPGe_pDz = 40;
+  G4double HPGe_pRMax = 79.3 / 2;
+  G4double HPGe_pDz = 77 / 2;
   G4double HPGe_pSPhi = 0;
   G4double HPGe_pDPhi = 2*CLHEP::pi;
   auto solidHPGe = new G4Tubs("HPGe",
@@ -164,7 +164,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   // Trapezoid shape
   G4double hole_pRMin = 0;
   G4double hole_pRMax = 15.5 / 2;
-  G4double hole_pDz = 20;
+  G4double hole_pDz = 40 / 2;
   G4double hole_pSPhi = 0;
   G4double hole_pDPhi = 2*CLHEP::pi;
   auto solidhole = new G4Tubs("hole",
