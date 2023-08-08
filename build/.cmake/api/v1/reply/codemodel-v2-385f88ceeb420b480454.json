@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-a5ab775a9360e676c147.json",
+					"jsonFile" : "directory-.-a5ab775a9360e676c147.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "2.8.12"
@@ -21,7 +21,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -42,14 +42,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "B1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-B1-Debug-3986e509e6ce07b182ac.json",
+					"jsonFile" : "target-B1-3986e509e6ce07b182ac.json",
 					"name" : "B1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "exampleB1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-exampleB1-Debug-453cfe408a01c886e46a.json",
+					"jsonFile" : "target-exampleB1-5749f0c81950318fcbb2.json",
 					"name" : "exampleB1",
 					"projectIndex" : 0
 				}
@@ -59,8 +59,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/apricot/Documents/Science/HPGe_Geant4/workdir/B1/build",
-		"source" : "/home/apricot/Documents/Science/HPGe_Geant4/workdir/B1"
+		"build" : "/home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/build",
+		"source" : "/home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency"
 	},
 	"version" : 
 	{

@@ -39,7 +39,7 @@
 #include "Randomize.hh"
 
 #include "G4UnitsTable.hh"
-G4double particleEnergy = 5*CLHEP::MeV;
+G4double particleEnergy = 15*CLHEP::keV;
 namespace B1
 {
 
@@ -93,12 +93,13 @@ void EventAction::EndOfEventAction(const G4Event*)
   // G4cout << "EventID is "<< eventID <<","<<"deposit energy of this event is "<< G4BestUnit(fEdep,"Energy") <<G4endl;
   if (fEdep != 0)
   {
-    fHistoManager->FillHisto(0, fEdep);
-    fHistoManager->FillNtuple(fEdep ,fEdep, fEdep, fEdep);
+    // fHistoManager->FillHisto(0, fEdep);
+    fHistoManager->FillNtuple(fEdep);
 
   }
 
   // fHistoManager->FillHisto(0, fEdep);
+  // fHistoManager->FillNtuple(fEdep);
   if (fEdep >= particleEnergy-0.1*CLHEP::keV)
   {
     fRunAction->Addfepn(1);

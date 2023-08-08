@@ -16,7 +16,12 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.27.0/CMakeSystem.cmake"
+			"path" : "build/CMakeFiles/3.27.1/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeUnixFindMake.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -275,7 +280,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.27.0/CMakeCCompiler.cmake"
+			"path" : "build/CMakeFiles/3.27.1/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -519,7 +524,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.27.0/CMakeCXXCompiler.cmake"
+			"path" : "build/CMakeFiles/3.27.1/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -643,7 +648,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.27.0/CMakeCCompiler.cmake"
+			"path" : "build/CMakeFiles/3.27.1/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -737,15 +742,15 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.27.0/CMakeCXXCompiler.cmake"
+			"path" : "build/CMakeFiles/3.27.1/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/Geant4ConfigVersion.cmake"
+			"path" : "/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/Geant4ConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/Geant4Config.cmake"
+			"path" : "/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/Geant4Config.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -775,6 +780,11 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
 			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
 		},
 		{
@@ -784,15 +794,15 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/G4EXPATShim.cmake"
+			"path" : "/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/G4EXPATShim.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/PTL/PTLConfigVersion.cmake"
+			"path" : "/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/PTL/PTLConfigVersion.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/PTL/PTLConfig.cmake"
+			"path" : "/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/PTL/PTLConfig.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -836,7 +846,7 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/PTL/Modules/FindTBB.cmake"
+			"path" : "/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/PTL/Modules/FindTBB.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -856,11 +866,11 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/PTL/PTLTargets.cmake"
+			"path" : "/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/PTL/PTLTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/PTL/PTLTargets-release.cmake"
+			"path" : "/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/PTL/PTLTargets-release.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -904,7 +914,7 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/G4FreetypeShim.cmake"
+			"path" : "/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/G4FreetypeShim.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -978,7 +988,7 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/G4X11Shim.cmake"
+			"path" : "/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/G4X11Shim.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1211,7 +1221,7 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/G4X11Shim.cmake"
+			"path" : "/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/G4X11Shim.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1230,11 +1240,11 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/G4MotifShim.cmake"
+			"path" : "/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/G4MotifShim.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/G4X11Shim.cmake"
+			"path" : "/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/G4X11Shim.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1297,27 +1307,27 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/G4X11Shim.cmake"
+			"path" : "/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/G4X11Shim.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/G4X11Shim.cmake"
+			"path" : "/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/G4X11Shim.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/Modules/IntelCompileFeatures.cmake"
+			"path" : "/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/Modules/IntelCompileFeatures.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/Modules/MSVCCompileFeatures.cmake"
+			"path" : "/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/Modules/MSVCCompileFeatures.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/Geant4LibraryDepends.cmake"
+			"path" : "/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/Geant4LibraryDepends.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/Geant4LibraryDepends-release.cmake"
+			"path" : "/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/Geant4LibraryDepends-release.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1331,7 +1341,7 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/UseGeant4.cmake"
+			"path" : "/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/UseGeant4.cmake"
 		},
 		{
 			"path" : "exampleB1.in"
@@ -1358,8 +1368,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/apricot/Documents/Science/HPGe_Geant4/workdir/B1/build",
-		"source" : "/home/apricot/Documents/Science/HPGe_Geant4/workdir/B1"
+		"build" : "/home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/build",
+		"source" : "/home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency"
 	},
 	"version" : 
 	{

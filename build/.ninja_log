@@ -1,10 +1,12 @@
 # ninja log v5
-2	1511	1689141195607585551	CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o	e151254262c8d0ed
-2	1264	1689141195359575903	CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o	9c133e399020ffca
-57	6271	1689148897442268262	CMakeFiles/exampleB1.dir/src/HistoManager.cc.o	59f1aac5698eb631
-2	1558	1689141195654587380	CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o	e70b7a739b7b83d5
-2	4227	1689148928338000512	CMakeFiles/exampleB1.dir/src/EventAction.cc.o	482d7aa29377d7e9
-2	1563	1689141195659587574	CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o	f2459478a85036fc
-2	1760	1689141195855595200	CMakeFiles/exampleB1.dir/src/RunAction.cc.o	1a7266c98f1018a1
-1	2783	1689141196878634993	CMakeFiles/exampleB1.dir/exampleB1.cc.o	72f3ffa16d12faac
-4227	5432	1689148929540029000	exampleB1	88ad5f2ae1484e9c
+1	1113	1690516901561300059	CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o	8fbf80998c6209fe
+1	1227	1690516901675300047	CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o	4b47a8ff8aebc75
+1	1135	1690516901583300057	CMakeFiles/exampleB1.dir/src/HistoManager.cc.o	6c737a2cc9c66f9c
+1	1207	1690516901655300049	CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o	2c0fb1fba2a0964e
+1	1548	1690516901996300014	CMakeFiles/exampleB1.dir/src/EventAction.cc.o	8354606f6ce90a73
+1	1265	1690516901713300043	CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o	10857a0d886a75c1
+1	1698	1690516902145299999	CMakeFiles/exampleB1.dir/src/RunAction.cc.o	a2561941a3f9f12c
+1	2554	1690516903001299911	CMakeFiles/exampleB1.dir/exampleB1.cc.o	59177b17bbe71c9d
+2554	2944	1690516903388299871	exampleB1	88ad5f2ae1484e9c
+3	896	1690517815613507407	CMakeFiles/exampleB1.dir/src/HistoManager.cc.o	6c737a2cc9c66f9c
+896	1297	1690517816012507381	exampleB1	88ad5f2ae1484e9c

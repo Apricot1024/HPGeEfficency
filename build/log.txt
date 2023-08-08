@@ -1,6 +1,6 @@
 
 **************************************************************
- Geant4 version Name: geant4-11-01-patch-01 [MT]   (10-February-2023)
+ Geant4 version Name: geant4-11-01-patch-02 [MT]   (15-June-2023)
   << in Multi-threaded mode >> 
                        Copyright : Geant4 Collaboration
                       References : NIM A 506 (2003), 250-303
@@ -72,7 +72,17 @@ Checking overlaps for volume HPGe:0 (G4Tubs) ... OK!
 Checking overlaps for volume hole:0 (G4Tubs) ... OK! 
 Checking overlaps for volume innerdeadlayer:0 (G4Tubs) ... OK! 
 Checking overlaps for volume outerdeadlayer:0 (G4Tubs) ... OK! 
-Checking overlaps for volume upperdeadlayer:0 (G4Tubs) ... OK! 
+Checking overlaps for volume upperdeadlayer:0 (G4Tubs) ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume upperdeadlayer:0 (G4Tubs) with hole:0 (G4Tubs)
+          overlap at local point (0.0588177,-4.03553,18) by 2 mm  (max of 1000 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
 ### HadronInelasticQBBC Construct Process:
     Emin(FTFP)= 3 GeV; Emax(FTFP)= 100000 GeV
     Emin(BERT)= 1 GeV; Emax(BERT)= 6 GeV; Emax(BERTpions)= 12 GeV;
@@ -245,13 +255,13 @@ hIoni:  for proton  XStype:3  SubType=2
 
 hBrems:  for proton  XStype:1  SubType=3
       dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
-      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 0
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
                hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
 
 hPairProd:  for proton  XStype:1  SubType=4
       dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
-      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 0
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
       Sampling table 17x1001; from 7.50618 GeV to 100 TeV 
       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
            hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
@@ -304,13 +314,13 @@ hIoni:  for anti_proton  XStype:3  SubType=2
 
 hBrems:  for anti_proton  XStype:1  SubType=3
       dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
-      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 0
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
                hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
 
 hPairProd:  for anti_proton  XStype:1  SubType=4
       dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
-      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 0
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
       Sampling table 17x1001; from 7.50618 GeV to 100 TeV 
       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
            hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
@@ -336,13 +346,13 @@ hIoni:  for kaon+  XStype:3  SubType=2
 
 hBrems:  for kaon+  XStype:1  SubType=3
       dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
-      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 0
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
                hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
 
 hPairProd:  for kaon+  XStype:1  SubType=4
       dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
-      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 0
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
       Sampling table 18x1001; from 3.94942 GeV to 100 TeV 
       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
            hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
@@ -368,13 +378,13 @@ hIoni:  for kaon-  XStype:3  SubType=2
 
 hBrems:  for kaon-  XStype:1  SubType=3
       dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
-      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 0
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
                hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
 
 hPairProd:  for kaon-  XStype:1  SubType=4
       dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
-      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 0
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
       Sampling table 18x1001; from 3.94942 GeV to 100 TeV 
       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
            hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
@@ -400,13 +410,13 @@ muIoni:  for mu+  XStype:3  SubType=2
 
 muBrems:  for mu+  XStype:1  SubType=3
       dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
-      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 0
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
               MuBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
 
 muPairProd:  for mu+  XStype:1  SubType=4
       dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
-      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 0
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
       Sampling table 21x1001; from 0.85 GeV to 100 TeV 
       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
           muPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
@@ -432,13 +442,13 @@ muIoni:  for mu-  XStype:3  SubType=2
 
 muBrems:  for mu-  XStype:1  SubType=3
       dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
-      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 0
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
               MuBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
 
 muPairProd:  for mu-  XStype:1  SubType=4
       dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
-      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 0
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
       Sampling table 21x1001; from 0.85 GeV to 100 TeV 
       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
           muPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
@@ -464,13 +474,13 @@ hIoni:  for pi+  XStype:3  SubType=2
 
 hBrems:  for pi+  XStype:1  SubType=3
       dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
-      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 0
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
                hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
 
 hPairProd:  for pi+  XStype:1  SubType=4
       dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
-      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 0
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
       Sampling table 20x1001; from 1.11656 GeV to 100 TeV 
       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
            hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
@@ -496,13 +506,13 @@ hIoni:  for pi-  XStype:3  SubType=2
 
 hBrems:  for pi-  XStype:1  SubType=3
       dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
-      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 0
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
                hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
 
 hPairProd:  for pi-  XStype:1  SubType=4
       dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
-      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 0
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
       Sampling table 20x1001; from 1.11656 GeV to 100 TeV 
       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
            hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
@@ -937,1355 +947,309 @@ See commands in /vis/modeling/trajectories/ for other options.
 
 ----> Output file is open in AnaEx01.root.
 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Run10035
-      issued by : G4TaskRunManager::InitializeEventLoop()
-Event modulo is reduced to 6 (was 10) to distribute events to all threads.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
+============================================================================================
+--> G4TaskRunManager::CreateAndStartWorkers() --> Creating 316 tasks with 316 events/task...
+============================================================================================
 
-
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Run10035
-      issued by : G4TaskRunManager::InitializeEventLoop()
-Event modulo is reduced to 6 (was 10) to distribute events to all threads.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-
-=========================================================================================
---> G4TaskRunManager::CreateAndStartWorkers() --> Creating 16 tasks with 6 events/task...
-=========================================================================================
-
-G4WT4 > ... set ntuple merging row mode : row-wise - done
 G4WT1 > ... set ntuple merging row mode : row-wise - done
-G4WT7 > ... set ntuple merging row mode : row-wise - done
-G4WT4 > 
-----> Output file is open in .
-G4WT11 > ... set ntuple merging row mode : row-wise - done
-G4WT1 > 
-----> Output file is open in .
-G4WT15 > ... set ntuple merging row mode : row-wise - done
-G4WT15 > 
-----> Output file is open in .
-G4WT7 > 
-----> Output file is open in .
-G4WT11 > 
-----> Output file is open in .
-G4WT6 > ... set ntuple merging row mode : row-wise - done
-G4WT3 > ... set ntuple merging row mode : row-wise - done
-G4WT6 > 
-----> Output file is open in .
+G4WT8 > ... set ntuple merging row mode : row-wise - done
 G4WT5 > ... set ntuple merging row mode : row-wise - done
-G4WT12 > ... set ntuple merging row mode : row-wise - done
-G4WT3 > 
-----> Output file is open in .
-G4WT12 > 
-----> Output file is open in .
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT5 > 
-----> Output file is open in .
+G4WT11 > ... set ntuple merging row mode : row-wise - done
 G4WT13 > ... set ntuple merging row mode : row-wise - done
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT11 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
+G4WT15 > ... set ntuple merging row mode : row-wise - done
 G4WT14 > ... set ntuple merging row mode : row-wise - done
-G4WT13 > 
-----> Output file is open in .
-G4WT11 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT15 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT15 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT15 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT15 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT11 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT11 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT9 > ... set ntuple merging row mode : row-wise - done
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT15 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT15 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT15 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT14 > 
-----> Output file is open in .
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT15 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT11 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT11 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT11 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT11 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT6 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT6 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT6 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT6 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT13 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT13 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT13 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT11 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT11 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT11 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT6 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT6 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT6 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT13 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT1 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT11 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT6 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
 G4WT10 > ... set ntuple merging row mode : row-wise - done
 G4WT10 > 
 ----> Output file is open in .
-G4WT3 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT3 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT3 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT3 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT4 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT3 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT3 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT3 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT3 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT3 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT3 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT3 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT3 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT9 > 
-----> Output file is open in .
-G4WT8 > ... set ntuple merging row mode : row-wise - done
-G4WT3 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT2 > ... set ntuple merging row mode : row-wise - done
-G4WT15 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT3 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT3 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT3 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT15 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT15 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT15 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT5 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT7 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT12 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT8 > 
-----> Output file is open in .
-G4WT5 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT12 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
 G4WT0 > ... set ntuple merging row mode : row-wise - done
-G4WT2 > 
-----> Output file is open in .
-G4WT14 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT5 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT14 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT5 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT12 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT11 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT14 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
+G4WT6 > ... set ntuple merging row mode : row-wise - done
 G4WT0 > 
 ----> Output file is open in .
-G4WT14 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT11 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT12 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT11 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT11 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT14 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntupleId 0 columnId 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT14 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT14 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::FillNtupleTColumn
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT14 > 
--------- WWWW ------- G4Exception-START -------- WWWW -------
-*** G4Exception : Analysis_W001
-      issued by : G4RootPNtupleManager::AddNtupleRow
-ntuple description id= 1 does not exist.
-*** This is just a warning message. ***
--------- WWWW -------- G4Exception-END --------- WWWW -------
-
-G4WT8 > ... merge all h1 - done
-G4WT14 > 
-G4WT1 > 
-G4WT1 > --------------------End of Local Run------------------------
-G4WT5 > 
-G4WT5 > --------------------End of Local Run------------------------
-G4WT5 >  The run consists of 6 gamma of 5 MeV
+G4WT7 > ... set ntuple merging row mode : row-wise - done
 G4WT7 > 
-G4WT5 >  Cumulated dose per run, in scoring volume : 0.412366 picoGy  rms = 0.376437 picoGy 
-G4WT7 > --------------------End of Local Run------------------------
-G4WT7 >  The run consists of 10 gamma of 5 MeV
-G4WT7 >  Cumulated dose per run, in scoring volume : 2.11944 picoGy  rms = 0.687141 picoGy 
-G4WT7 > ------------------------------------------------------------
-G4WT7 > full energy peak particle numbers: 1
-G4WT15 > 
-G4WT1 >  The run consists of 18 gamma of 5 MeV
-G4WT1 >  Cumulated dose per run, in scoring volume : 1.46142 picoGy  rms = 0.666531 picoGy 
-G4WT1 > ------------------------------------------------------------
-G4WT1 > full energy peak particle numbers: 0
-G4WT3 > 
-G4WT3 > --------------------End of Local Run------------------------
-G4WT3 >  The run consists of 6 gamma of 5 MeV
-G4WT14 > --------------------End of Local Run------------------------
+----> Output file is open in .
+G4WT12 > ... set ntuple merging row mode : row-wise - done
+G4WT2 > ... set ntuple merging row mode : row-wise - done
+G4WT8 > 
+----> Output file is open in .
+G4WT5 > 
+----> Output file is open in .
 G4WT11 > 
-G4WT11 > --------------------End of Local Run------------------------
-G4WT12 > 
+----> Output file is open in .
 G4WT13 > 
+----> Output file is open in .
+G4WT15 > 
+----> Output file is open in .
+G4WT14 > 
+----> Output file is open in .
+G4WT9 > ... set ntuple merging row mode : row-wise - done
+G4WT4 > ... set ntuple merging row mode : row-wise - done
+G4WT6 > 
+----> Output file is open in .
+G4WT4 > 
+----> Output file is open in .
+G4WT1 > 
+----> Output file is open in .
+G4WT12 > 
+----> Output file is open in .
+G4WT9 > 
+----> Output file is open in .
+G4WT2 > 
+----> Output file is open in .
+G4WT3 > ... set ntuple merging row mode : row-wise - done
+G4WT3 > 
+----> Output file is open in .
+G4WT11 > 
+G4WT1 > 
+G4WT12 > 
 G4WT12 > --------------------End of Local Run------------------------
-G4WT8 > ... merge all h2 - done
+G4WT8 > 
+G4WT12 >  The run consists of 6320 gamma of 15 keV
+G4WT2 > 
+G4WT14 > 
+G4WT14 > --------------------End of Local Run------------------------
+G4WT14 >  The run consists of 6320 gamma of 15 keV
+G4WT9 > 
+G4WT0 > 
+G4WT0 > --------------------End of Local Run------------------------
+G4WT15 > 
+G4WT15 > --------------------End of Local Run------------------------
 G4WT6 > 
 G4WT6 > --------------------End of Local Run------------------------
-G4WT6 >  The run consists of 6 gamma of 5 MeV
-G4WT3 >  Cumulated dose per run, in scoring volume : 1.25739 picoGy  rms = 0.495784 picoGy 
-G4WT3 > ------------------------------------------------------------
-G4WT3 > full energy peak particle numbers: 0
-G4WT13 > --------------------End of Local Run------------------------
-G4WT13 >  The run consists of 6 gamma of 5 MeV
-G4WT12 >  The run consists of 6 gamma of 5 MeV
-G4WT13 >  Cumulated dose per run, in scoring volume : 0.474376 picoGy  rms = 0.433044 picoGy 
-G4WT12 >  Cumulated dose per run, in scoring volume : 0.161948 picoGy  rms = 0.147838 picoGy 
-G4WT12 > ------------------------------------------------------------
-G4WT12 > full energy peak particle numbers: 0
-G4WT14 >  The run consists of 6 gamma of 5 MeV
-G4WT11 >  The run consists of 18 gamma of 5 MeV
-G4WT14 >  Cumulated dose per run, in scoring volume : 0.709145 picoGy  rms = 0.458884 picoGy 
-G4WT14 > ------------------------------------------------------------
-G4WT14 > full energy peak particle numbers: 1
-G4WT5 > ------------------------------------------------------------
-G4WT5 > full energy peak particle numbers: 0
+G4WT6 >  The run consists of 6952 gamma of 15 keV
+G4WT5 > 
+G4WT5 > --------------------End of Local Run------------------------
+G4WT5 >  The run consists of 6320 gamma of 15 keV
 G4WT4 > 
-G4WT6 >  Cumulated dose per run, in scoring volume : 0.695115 picoGy  rms = 0.423984 picoGy 
+G4WT5 >  Cumulated dose per run, in scoring volume : 7.75236 picoGy  rms = 0.00169596 picoGy 
+G4WT5 > ------------------------------------------------------------
+G4WT5 > full energy peak particle numbers: 6307
+G4WT2 > --------------------End of Local Run------------------------
+G4WT2 >  The run consists of 6464 gamma of 15 keV
+G4WT2 >  Cumulated dose per run, in scoring volume : 7.92976 picoGy  rms = 0.00160714 picoGy 
+G4WT2 > ------------------------------------------------------------
+G4WT2 > full energy peak particle numbers: 6451
+G4WT14 >  Cumulated dose per run, in scoring volume : 7.74773 picoGy  rms = 0.00242379 picoGy 
+G4WT9 > --------------------End of Local Run------------------------
+G4WT9 >  The run consists of 6320 gamma of 15 keV
+G4WT3 > 
+G4WT15 >  The run consists of 6004 gamma of 15 keV
+G4WT7 > 
+G4WT7 > --------------------End of Local Run------------------------
+G4WT7 >  The run consists of 6636 gamma of 15 keV
+G4WT1 > --------------------End of Local Run------------------------
+G4WT8 > --------------------End of Local Run------------------------
+G4WT8 >  The run consists of 5372 gamma of 15 keV
+G4WT10 > 
+G4WT10 > --------------------End of Local Run------------------------
+G4WT10 >  The run consists of 6636 gamma of 15 keV
+G4WT12 >  Cumulated dose per run, in scoring volume : 7.75118 picoGy  rms = 0.00185581 picoGy 
+G4WT5 > ... merge all h1 - done
+G4WT13 > 
+G4WT14 > ------------------------------------------------------------
+G4WT0 >  The run consists of 6004 gamma of 15 keV
+G4WT9 >  Cumulated dose per run, in scoring volume : 7.75238 picoGy  rms = 0.00164191 picoGy 
+G4WT9 > ------------------------------------------------------------
+G4WT3 > --------------------End of Local Run------------------------
+G4WT3 >  The run consists of 6004 gamma of 15 keV
+G4WT6 >  Cumulated dose per run, in scoring volume : 8.51061 picoGy  rms = 0.0041626 picoGy 
 G4WT6 > ------------------------------------------------------------
-G4WT6 > full energy peak particle numbers: 0
-G4WT8 > ... merge all h3 - done
-G4WT13 > ------------------------------------------------------------
-G4WT13 > full energy peak particle numbers: 0
-G4WT15 > --------------------End of Local Run------------------------
-G4WT15 >  The run consists of 6 gamma of 5 MeV
-G4WT8 > ... merge all p1 - done
+G4WT6 > full energy peak particle numbers: 6901
+G4WT1 >  The run consists of 6636 gamma of 15 keV
 G4WT4 > --------------------End of Local Run------------------------
-G4WT4 >  The run consists of 12 gamma of 5 MeV
-G4WT15 >  Cumulated dose per run, in scoring volume : 1.39361 picoGy  rms = 0.571234 picoGy 
+G4WT4 >  The run consists of 6636 gamma of 15 keV
+G4WT1 >  Cumulated dose per run, in scoring volume : 8.14141 picoGy  rms = 0.00138118 picoGy 
+G4WT1 > ------------------------------------------------------------
+G4WT1 > full energy peak particle numbers: 6623
+G4WT12 > ------------------------------------------------------------
+G4WT14 > full energy peak particle numbers: 6293
+G4WT12 > full energy peak particle numbers: 6299
+G4WT9 > full energy peak particle numbers: 6304
+G4WT15 >  Cumulated dose per run, in scoring volume : 7.3613 picoGy  rms = 0.00221488 picoGy 
 G4WT15 > ------------------------------------------------------------
-G4WT15 > full energy peak particle numbers: 1
-G4WT4 >  Cumulated dose per run, in scoring volume : 2.58151 picoGy  rms = 0.762982 picoGy 
-G4WT4 > ------------------------------------------------------------
-G4WT4 > full energy peak particle numbers: 0
-G4WT8 > ... merge all p2 - done
-G4WT11 >  Cumulated dose per run, in scoring volume : 1.48576 picoGy  rms = 0.697666 picoGy 
-G4WT8 > ... merge slave ntuples - done
+G4WT11 > --------------------End of Local Run------------------------
+G4WT11 >  The run consists of 5688 gamma of 15 keV
+G4WT8 >  Cumulated dose per run, in scoring volume : 6.58909 picoGy  rms = 0.00155882 picoGy 
+G4WT8 > ------------------------------------------------------------
+G4WT8 > full energy peak particle numbers: 5358
+G4WT5 > ... merge all h2 - done
+G4WT5 > ... merge all h3 - done
+G4WT0 >  Cumulated dose per run, in scoring volume : 7.35964 picoGy  rms = 0.00242156 picoGy 
+G4WT0 > ------------------------------------------------------------
+G4WT3 >  Cumulated dose per run, in scoring volume : 7.35072 picoGy  rms = 0.00343058 picoGy 
+G4WT3 > ------------------------------------------------------------
+G4WT11 >  Cumulated dose per run, in scoring volume : 6.97792 picoGy  rms = 0.00129367 picoGy 
 G4WT11 > ------------------------------------------------------------
-G4WT11 > full energy peak particle numbers: 0
-G4WT9 > ... merge all h1 - done
-G4WT8 > 
-----> Histograms are saved
-
-G4WT9 > ... merge all h2 - done
-G4WT9 > ... merge all h3 - done
-G4WT9 > ... merge all p1 - done
-G4WT9 > ... merge all p2 - done
-G4WT9 > ... merge slave ntuples - done
-G4WT9 > 
-----> Histograms are saved
-
+G4WT11 > full energy peak particle numbers: 5675
+G4WT13 > --------------------End of Local Run------------------------
+G4WT5 > ... merge all p1 - done
+G4WT0 > full energy peak particle numbers: 5979
+G4WT15 > full energy peak particle numbers: 5983
+G4WT7 >  Cumulated dose per run, in scoring volume : 8.13782 picoGy  rms = 0.00215629 picoGy 
+G4WT7 > ------------------------------------------------------------
+G4WT7 > full energy peak particle numbers: 6616
+G4WT4 >  Cumulated dose per run, in scoring volume : 8.14185 picoGy  rms = 0.0013691 picoGy 
+G4WT4 > ------------------------------------------------------------
+G4WT4 > full energy peak particle numbers: 6626
+G4WT3 > full energy peak particle numbers: 5956
+G4WT10 >  Cumulated dose per run, in scoring volume : 8.13515 picoGy  rms = 0.00221761 picoGy 
+G4WT10 > ------------------------------------------------------------
+G4WT5 > ... merge all p2 - done
+G4WT13 >  The run consists of 5688 gamma of 15 keV
+G4WT14 > ... merge all h1 - done
+G4WT10 > full energy peak particle numbers: 6605
+G4WT13 >  Cumulated dose per run, in scoring volume : 6.97633 picoGy  rms = 0.00194025 picoGy 
+G4WT13 > ------------------------------------------------------------
+G4WT13 > full energy peak particle numbers: 5675
+G4WT14 > ... merge all h2 - done
+G4WT14 > ... merge all h3 - done
+G4WT14 > ... merge all p1 - done
+G4WT14 > ... merge all p2 - done
+G4WT6 > ... merge all h1 - done
+G4WT6 > ... merge all h2 - done
+G4WT6 > ... merge all h3 - done
+G4WT6 > ... merge all p1 - done
+G4WT6 > ... merge all p2 - done
+G4WT7 > ... merge all h1 - done
+G4WT7 > ... merge all h2 - done
+G4WT7 > ... merge all h3 - done
+G4WT7 > ... merge all p1 - done
 G4WT12 > ... merge all h1 - done
 G4WT12 > ... merge all h2 - done
 G4WT12 > ... merge all h3 - done
 G4WT12 > ... merge all p1 - done
 G4WT12 > ... merge all p2 - done
-G4WT2 > ... merge all h1 - done
-G4WT2 > ... merge all h2 - done
-G4WT2 > ... merge all h3 - done
-G4WT2 > ... merge all p1 - done
-G4WT2 > ... merge all p2 - done
-G4WT12 > ... merge slave ntuples - done
-G4WT2 > ... merge slave ntuples - done
-G4WT12 > 
-----> Histograms are saved
-
-G4WT2 > 
-----> Histograms are saved
-
 G4WT11 > ... merge all h1 - done
 G4WT11 > ... merge all h2 - done
 G4WT11 > ... merge all h3 - done
 G4WT11 > ... merge all p1 - done
 G4WT11 > ... merge all p2 - done
-G4WT14 > ... merge all h1 - done
-G4WT14 > ... merge all h2 - done
-G4WT14 > ... merge all h3 - done
-G4WT14 > ... merge all p1 - done
-G4WT11 > ... merge slave ntuples - done
-G4WT14 > ... merge all p2 - done
-G4WT11 > 
-----> Histograms are saved
-
-G4WT15 > ... merge all h1 - done
-G4WT15 > ... merge all h2 - done
-G4WT15 > ... merge all h3 - done
-G4WT14 > ... merge slave ntuples - done
-G4WT15 > ... merge all p1 - done
-G4WT14 > 
-----> Histograms are saved
-
-G4WT15 > ... merge all p2 - done
 G4WT3 > ... merge all h1 - done
 G4WT3 > ... merge all h2 - done
-G4WT15 > ... merge slave ntuples - done
 G4WT3 > ... merge all h3 - done
-G4WT15 > 
-----> Histograms are saved
-
 G4WT3 > ... merge all p1 - done
 G4WT3 > ... merge all p2 - done
-G4WT0 > ... merge all h1 - done
-G4WT3 > ... merge slave ntuples - done
-G4WT0 > ... merge all h2 - done
-G4WT3 > 
-----> Histograms are saved
-
-G4WT0 > ... merge all h3 - done
-G4WT0 > ... merge all p1 - done
-G4WT0 > ... merge all p2 - done
-G4WT0 > ... merge slave ntuples - done
-G4WT0 > 
-----> Histograms are saved
-
-G4WT5 > ... merge all h1 - done
-G4WT5 > ... merge all h2 - done
-G4WT5 > ... merge all h3 - done
-G4WT5 > ... merge all p1 - done
-G4WT5 > ... merge all p2 - done
-G4WT1 > ... merge all h1 - done
-G4WT5 > ... merge slave ntuples - done
-G4WT5 > 
-----> Histograms are saved
-
-G4WT1 > ... merge all h2 - done
-G4WT1 > ... merge all h3 - done
-G4WT1 > ... merge all p1 - done
-G4WT1 > ... merge all p2 - done
-G4WT1 > ... merge slave ntuples - done
-G4WT7 > ... merge all h1 - done
-G4WT1 > 
-----> Histograms are saved
-
-G4WT7 > ... merge all h2 - done
-G4WT7 > ... merge all h3 - done
-G4WT7 > ... merge all p1 - done
-G4WT7 > ... merge all p2 - done
-G4WT10 > ... merge all h1 - done
-G4WT10 > ... merge all h2 - done
-G4WT10 > ... merge all h3 - done
-G4WT10 > ... merge all p1 - done
-G4WT10 > ... merge all p2 - done
-G4WT10 > ... merge slave ntuples - done
-G4WT10 > 
-----> Histograms are saved
-
-G4WT13 > ... merge all h1 - done
-G4WT7 > ... merge slave ntuples - done
-G4WT13 > ... merge all h2 - done
-G4WT7 > 
-----> Histograms are saved
-
-G4WT13 > ... merge all h3 - done
-G4WT13 > ... merge all p1 - done
-G4WT13 > ... merge all p2 - done
-G4WT6 > ... merge all h1 - done
-G4WT13 > ... merge slave ntuples - done
-G4WT6 > ... merge all h2 - done
-G4WT6 > ... merge all h3 - done
-G4WT6 > ... merge all p1 - done
-G4WT13 > 
-----> Histograms are saved
-
-G4WT6 > ... merge all p2 - done
-G4WT6 > ... merge slave ntuples - done
+G4WT8 > ... merge all h1 - done
+G4WT8 > ... merge all h2 - done
+G4WT8 > ... merge all h3 - done
+G4WT8 > ... merge all p1 - done
+G4WT8 > ... merge all p2 - done
 G4WT4 > ... merge all h1 - done
 G4WT4 > ... merge all h2 - done
 G4WT4 > ... merge all h3 - done
 G4WT4 > ... merge all p1 - done
 G4WT4 > ... merge all p2 - done
+G4WT2 > ... merge all h1 - done
+G4WT2 > ... merge all h2 - done
+G4WT2 > ... merge all h3 - done
+G4WT2 > ... merge all p1 - done
+G4WT5 > ... merge slave ntuples - done
+G4WT2 > ... merge all p2 - done
+G4WT10 > ... merge all h1 - done
+G4WT10 > ... merge all h2 - done
+G4WT10 > ... merge all h3 - done
+G4WT10 > ... merge all p1 - done
+G4WT10 > ... merge all p2 - done
+G4WT5 > 
+----> Histograms are saved
+
+G4WT15 > ... merge all h1 - done
+G4WT15 > ... merge all h2 - done
+G4WT15 > ... merge all h3 - done
+G4WT15 > ... merge all p1 - done
+G4WT15 > ... merge all p2 - done
+G4WT1 > ... merge all h1 - done
+G4WT1 > ... merge all h2 - done
+G4WT1 > ... merge all h3 - done
+G4WT1 > ... merge all p1 - done
+G4WT1 > ... merge all p2 - done
+G4WT0 > ... merge all h1 - done
+G4WT0 > ... merge all h2 - done
+G4WT0 > ... merge all h3 - done
+G4WT0 > ... merge all p1 - done
+G4WT0 > ... merge all p2 - done
+G4WT13 > ... merge all h1 - done
+G4WT13 > ... merge all h2 - done
+G4WT13 > ... merge all h3 - done
+G4WT7 > ... merge all p2 - done
+G4WT9 > ... merge all h1 - done
+G4WT9 > ... merge all h2 - done
+G4WT9 > ... merge all h3 - done
+G4WT9 > ... merge all p1 - done
+G4WT9 > ... merge all p2 - done
+G4WT13 > ... merge all p1 - done
+G4WT13 > ... merge all p2 - done
+G4WT6 > ... merge slave ntuples - done
 G4WT6 > 
+----> Histograms are saved
+
+G4WT3 > ... merge slave ntuples - done
+G4WT3 > 
 ----> Histograms are saved
 
 G4WT4 > ... merge slave ntuples - done
 G4WT4 > 
 ----> Histograms are saved
 
+G4WT12 > ... merge slave ntuples - done
+G4WT12 > 
+----> Histograms are saved
+
+G4WT11 > ... merge slave ntuples - done
+G4WT11 > 
+----> Histograms are saved
+
+G4WT10 > ... merge slave ntuples - done
+G4WT10 > 
+----> Histograms are saved
+
+G4WT1 > ... merge slave ntuples - done
+G4WT1 > 
+----> Histograms are saved
+
+G4WT7 > ... merge slave ntuples - done
+G4WT7 > 
+----> Histograms are saved
+
+G4WT13 > ... merge slave ntuples - done
+G4WT13 > 
+----> Histograms are saved
+
+G4WT14 > ... merge slave ntuples - done
+G4WT14 > 
+----> Histograms are saved
+
+G4WT2 > ... merge slave ntuples - done
+G4WT2 > 
+----> Histograms are saved
+
+G4WT0 > ... merge slave ntuples - done
+G4WT0 > 
+----> Histograms are saved
+
+G4WT8 > ... merge slave ntuples - done
+G4WT8 > 
+----> Histograms are saved
+
+G4WT9 > ... merge slave ntuples - done
+G4WT9 > 
+----> Histograms are saved
+
+G4WT15 > ... merge slave ntuples - done
+G4WT15 > 
+----> Histograms are saved
+
 
 --------------------End of Global Run-----------------------
- The run consists of 100 
- Cumulated dose per run, in scoring volume : 12.7521 picoGy  rms = 1.93398 picoGy 
+ The run consists of 100000 
+ Cumulated dose per run, in scoring volume : 122.615 picoGy  rms = 0.00886696 picoGy 
 ------------------------------------------------------------
-full energy peak particle numbers: 3
+full energy peak particle numbers: 99651
 ... merge main ntuples - done
 ... write file : AnaEx01.root - done
 ... close file : AnaEx01.root - done
 
 ----> Histograms are saved
 
-There is 1 h1 histogram
-  0 with      0 entries: Edep in HPGe
-List them with "/analysis/list".
-View them with "/vis/plot" or "/vis/reviewPlots".
 Graphics systems deleted.
 Visualization Manager deleting...

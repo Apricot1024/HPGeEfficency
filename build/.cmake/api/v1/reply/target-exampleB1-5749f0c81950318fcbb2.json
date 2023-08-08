@@ -22,13 +22,13 @@
 		"files" : 
 		[
 			"CMakeLists.txt",
-			"/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/Geant4LibraryDepends.cmake",
-			"/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/Geant4Config.cmake",
+			"/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/Geant4LibraryDepends.cmake",
+			"/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/Geant4Config.cmake",
 			"/usr/lib/cmake/SoQt-1.6.0/soqt-export.cmake",
 			"/usr/lib/cmake/SoQt-1.6.0/soqt-config.cmake",
 			"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
-			"/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/PTL/PTLTargets.cmake",
-			"/opt/Geant4/Geant4-v11.1.1/lib/cmake/Geant4/PTL/PTLConfig.cmake"
+			"/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/PTL/PTLTargets.cmake",
+			"/opt/Geant4/Geant4-v11.1.2/lib/cmake/Geant4/PTL/PTLConfig.cmake"
 		],
 		"nodes" : 
 		[
@@ -199,9 +199,6 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
-				},
-				{
 					"backtrace" : 3,
 					"fragment" : "-fPIC"
 				}
@@ -282,6 +279,10 @@
 				},
 				{
 					"backtrace" : 3,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 3,
 					"define" : "QT_OPENGL_LIB"
 				},
 				{
@@ -291,22 +292,18 @@
 				{
 					"backtrace" : 3,
 					"define" : "QT_WIDGETS_LIB"
-				},
-				{
-					"backtrace" : 3,
-					"define" : "TBB_USE_DEBUG"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 28,
-					"path" : "/home/apricot/Documents/Science/HPGe_Geant4/workdir/B1/include"
+					"path" : "/home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/include"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/opt/Geant4/Geant4-v11.1.1/include/Geant4"
+					"path" : "/opt/Geant4/Geant4-v11.1.2/include/Geant4"
 				},
 				{
 					"backtrace" : 3,
@@ -383,150 +380,146 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
-			{
 				"fragment" : "",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/opt/Geant4/Geant4-v11.1.1/lib:",
+				"fragment" : "-Wl,-rpath,/opt/Geant4/Geant4-v11.1.2/lib:",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4Tree.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4Tree.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4FR.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4FR.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4GMocren.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4GMocren.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4visHepRep.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4visHepRep.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4RayTracer.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4RayTracer.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4VRML.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4VRML.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4ToolsSG.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4ToolsSG.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4OpenGL.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4OpenGL.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4OpenInventor.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4OpenInventor.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4vis_management.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4vis_management.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4modeling.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4modeling.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4interfaces.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4interfaces.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4persistency.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4persistency.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4error_propagation.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4error_propagation.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4readout.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4readout.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4physicslists.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4physicslists.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4run.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4run.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4event.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4event.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4tracking.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4tracking.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4parmodels.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4parmodels.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4processes.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4processes.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4digits_hits.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4digits_hits.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4track.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4track.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4particles.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4particles.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4geometry.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4geometry.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4materials.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4materials.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4graphics_reps.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4graphics_reps.so",
 				"role" : "libraries"
 			},
 			{
@@ -646,7 +639,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4analysis.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4analysis.so",
 				"role" : "libraries"
 			},
 			{
@@ -661,27 +654,27 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4zlib.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4zlib.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4intercoms.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4intercoms.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4global.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4global.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4clhep.so",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4clhep.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 21,
-				"fragment" : "/opt/Geant4/Geant4-v11.1.1/lib/libG4ptl.so.2.3.3",
+				"fragment" : "/opt/Geant4/Geant4-v11.1.2/lib/libG4ptl.so.2.3.3",
 				"role" : "libraries"
 			},
 			{

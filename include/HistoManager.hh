@@ -51,8 +51,7 @@ class HistoManager
     void FillHisto(G4int id, G4double e, G4double weight = 1.0);
     void Normalize(G4int id, G4double fac);
 
-    void FillNtuple(G4double EnergyAbs, G4double EnergyGap,
-                    G4double TrackLAbs, G4double TrackLGap);
+    void FillNtuple(G4double EnergyAbs);
 
     void PrintStatistic();
 

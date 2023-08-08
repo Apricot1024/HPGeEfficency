@@ -65,8 +65,8 @@ void HistoManager::Book()
   #endif
 
     // Create directories
-    analysisManager->SetHistoDirectoryName("histo");
-    analysisManager->SetNtupleDirectoryName("ntuple");
+    // analysisManager->SetHistoDirectoryName("histo");
+    // analysisManager->SetNtupleDirectoryName("ntuple");
   }
 
   // Open an output file
@@ -84,10 +84,10 @@ void HistoManager::Book()
     // The start value can be changed by:
     // analysisManager->SetFirstHistoId(1);
 
-    G4double xmax = 5*MeV;
+    // G4double xmax = 5*MeV;
     // G4int bin = ceil(xmax / 0.01);
     // id = 0
-    analysisManager->CreateH1("Edep","Edep in HPGe", 100, 0.3, xmax);
+    // analysisManager->CreateH1("Edep","Edep in HPGe", 100, 0.3, xmax);
     // id = 1
     // analysisManager->CreateH1("EGap","Edep in gap (MeV)", 100, 0., 100*MeV);
     // // id = 2
@@ -101,7 +101,7 @@ void HistoManager::Book()
     // analysisManager->SetFirstMtupleId(1);
 
     // Create 1st ntuple (id = 0)
-    analysisManager->CreateNtuple("Ntuple1", "Edep");
+    analysisManager->CreateNtuple("Ntuple", "Edep");
     analysisManager->CreateNtupleDColumn("fEdep"); // column Id = 0
     // analysisManager->CreateNtupleDColumn("Egap"); // column Id = 1
     analysisManager->FinishNtuple();
@@ -154,18 +154,17 @@ void HistoManager::Normalize(G4int ih, G4double fac)
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void HistoManager::FillNtuple(G4double energyAbs, G4double energyGap,
-                              G4double trackLAbs, G4double trackLGap)
+void HistoManager::FillNtuple(G4double energyAbs)
 {
   G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
   // Fill 1st ntuple ( id = 0)
   analysisManager->FillNtupleDColumn(0, 0, energyAbs);
-  analysisManager->FillNtupleDColumn(0, 1, energyGap);
+  // analysisManager->FillNtupleDColumn(0, 1, energyGap);
   analysisManager->AddNtupleRow(0);
-  // Fill 2nd ntuple ( id = 1)
-  analysisManager->FillNtupleDColumn(1, 0, trackLAbs);
-  analysisManager->FillNtupleDColumn(1, 1, trackLGap);
-  analysisManager->AddNtupleRow(1);
+  // // Fill 2nd ntuple ( id = 1)
+  // analysisManager->FillNtupleDColumn(1, 0, trackLAbs);
+  // analysisManager->FillNtupleDColumn(1, 1, trackLGap);
+  // analysisManager->AddNtupleRow(1);
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
