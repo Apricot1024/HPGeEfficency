@@ -1,7 +1,7 @@
 CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: \
- /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/src/DetectorConstruction.cc \
+ /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/src/DetectorConstruction.cc \
  /usr/include/stdc-predef.h \
- /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/include/DetectorConstruction.hh \
+ /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/include/DetectorConstruction.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4VUserDetectorConstruction.hh \
  /usr/include/c++/13.2.1/vector \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \

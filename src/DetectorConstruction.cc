@@ -159,7 +159,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   //
   // Hole of HPGe detector
   //
-  G4Material* hole_mat = nist->FindOrBuildMaterial("Galactic");
+  G4Material* hole_mat = nist->FindOrBuildMaterial("G4_AIR");
 
   // Trapezoid shape
   G4double hole_pRMin = 0;

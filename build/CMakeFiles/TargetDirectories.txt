@@ -1,8 +1,8 @@
-/home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/build/CMakeFiles/exampleB1.dir
-/home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/build/CMakeFiles/B1.dir
-/home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/build/CMakeFiles/edit_cache.dir
-/home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/build/CMakeFiles/rebuild_cache.dir
-/home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/build/CMakeFiles/list_install_components.dir
-/home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/build/CMakeFiles/install.dir
-/home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/build/CMakeFiles/install/local.dir
-/home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/build/CMakeFiles/install/strip.dir
+/home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/build/CMakeFiles/exampleB1.dir
+/home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/build/CMakeFiles/B1.dir
+/home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/build/CMakeFiles/edit_cache.dir
+/home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/build/CMakeFiles/rebuild_cache.dir
+/home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/build/CMakeFiles/list_install_components.dir
+/home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/build/CMakeFiles/install.dir
+/home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/build/CMakeFiles/install/local.dir
+/home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/build/CMakeFiles/install/strip.dir

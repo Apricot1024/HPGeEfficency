@@ -86,20 +86,24 @@ void EventAction::EndOfEventAction(const G4Event*)
   // G4cout << "energy of this particle is "<< particleEnergy <<G4endl;
   // accumulate statistics in run action
   // //高斯展宽
+  double fwhm = 2*CLHEP::keV;
   // double sigma=(0.001+0.05086*sqrt(0.030486*fEdep*fEdep+fEdep))/2.35482;
-  // fEdep= G4RandGauss::shoot(0,1)*sigma+fEdep;
+  double sigma = fwhm / 2.35482;
+  fEdep= G4RandGauss::shoot(0,1)*sigma+fEdep;
   fRunAction->AddEdep(fEdep);
   // G4int eventID = fpEventManager->GetConstCurrentEvent()->GetEventID();
   // G4cout << "EventID is "<< eventID <<","<<"deposit energy of this event is "<< G4BestUnit(fEdep,"Energy") <<G4endl;
-  if (fEdep != 0)
-  {
-    // fHistoManager->FillHisto(0, fEdep);
-    fHistoManager->FillNtuple(fEdep);
 
-  }
+
+  // if (fEdep != 0)
+  // {
+  //   // fHistoManager->FillHisto(0, fEdep);
+  //   fHistoManager->FillNtuple(fEdep);
+
+  // }
 
   // fHistoManager->FillHisto(0, fEdep);
-  // fHistoManager->FillNtuple(fEdep);
+  fHistoManager->FillNtuple(fEdep);
   if (fEdep >= particleEnergy-0.1*CLHEP::keV)
   {
     fRunAction->Addfepn(1);

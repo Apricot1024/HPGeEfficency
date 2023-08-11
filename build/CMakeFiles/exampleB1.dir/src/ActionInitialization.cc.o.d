@@ -1,9 +1,9 @@
 CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o: \
- /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/src/ActionInitialization.cc \
+ /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/src/ActionInitialization.cc \
  /usr/include/stdc-predef.h \
- /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/include/ActionInitialization.hh \
+ /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/include/ActionInitialization.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4VUserActionInitialization.hh \
- /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/include/HistoManager.hh \
+ /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/include/HistoManager.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4AnalysisManager.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4GenericAnalysisManager.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4ToolsAnalysisManager.hh \
@@ -314,7 +314,7 @@ CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o: \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4GenericFileManager.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4GenericFileManager.icc \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/globals.hh \
- /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/include/PrimaryGeneratorAction.hh \
+ /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/include/PrimaryGeneratorAction.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4ParticleGun.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4VPrimaryGenerator.hh \
@@ -330,7 +330,7 @@ CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o: \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4AllocatorPool.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4PrimaryParticle.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4ParticleMomentum.hh \
- /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/include/RunAction.hh \
+ /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/include/RunAction.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4UserRunAction.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4Accumulable.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4VAccumulable.hh \
@@ -342,7 +342,7 @@ CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o: \
  /usr/include/c++/13.2.1/bits/hashtable_policy.h \
  /usr/include/c++/13.2.1/bits/enable_special_members.h \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4Accumulable.icc \
- /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/include/EventAction.hh \
+ /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/include/EventAction.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4UserEventAction.hh \
- /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/include/SteppingAction.hh \
+ /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/include/SteppingAction.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4UserSteppingAction.hh

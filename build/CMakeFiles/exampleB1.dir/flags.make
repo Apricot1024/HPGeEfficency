@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DG4LIB_BUILD_DLL -DG4UI_BUILD_XM_SESSION -DG4UI_USE_QT -DG4UI_USE_TCSH -DG4UI_USE_XM -DG4VIS_USE_OI -DG4VIS_USE_OIQT -DG4VIS_USE_OPENGL -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_OPENGLXM -DG4VIS_USE_RAYTRACERX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_XT_GLES -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/include -isystem /opt/Geant4/Geant4-v11.1.2/include/Geant4 -isystem /usr/include/freetype2 -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtOpenGL -isystem /usr/include/qt/QtPrintSupport
+CXX_INCLUDES = -I/home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/include -isystem /opt/Geant4/Geant4-v11.1.2/include/Geant4 -isystem /usr/include/freetype2 -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtOpenGL -isystem /usr/include/qt/QtPrintSupport
 
 CXX_FLAGS = -fPIC
 

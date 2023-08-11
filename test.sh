@@ -1,6 +1,6 @@
 #! /bin/zsh
 
 cd /home/apricot/Documents/Science/HPGe_Geant4/workdir/HPGeEfficency/build
-root -l ./efficency.cpp
-.q
+g++ ./efficency.cpp -o efficency `root-config --cflags --libs`
+./efficency
 echo 'succeed' ${i}

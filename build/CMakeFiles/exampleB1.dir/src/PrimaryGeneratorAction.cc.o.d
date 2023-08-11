@@ -1,7 +1,7 @@
 CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o: \
- /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/src/PrimaryGeneratorAction.cc \
+ /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/src/PrimaryGeneratorAction.cc \
  /usr/include/stdc-predef.h \
- /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/include/PrimaryGeneratorAction.hh \
+ /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/include/PrimaryGeneratorAction.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4ParticleGun.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/globals.hh \

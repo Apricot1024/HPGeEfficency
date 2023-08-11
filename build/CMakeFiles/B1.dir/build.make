@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency
+CMAKE_SOURCE_DIR = /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/build
+CMAKE_BINARY_DIR = /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/build
 
 # Utility rule file for B1.
 
@@ -81,6 +81,6 @@ CMakeFiles/B1.dir/clean:
 .PHONY : CMakeFiles/B1.dir/clean
 
 CMakeFiles/B1.dir/depend:
-	cd /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/build /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/build /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/build/CMakeFiles/B1.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/build /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/build /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/build/CMakeFiles/B1.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/B1.dir/depend
 

@@ -1,7 +1,7 @@
 CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o: \
- /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/src/SteppingAction.cc \
+ /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/src/SteppingAction.cc \
  /usr/include/stdc-predef.h \
- /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/include/SteppingAction.hh \
+ /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/include/SteppingAction.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4UserSteppingAction.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/globals.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4ios.hh \
@@ -210,9 +210,9 @@ CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o: \
  /usr/include/c++/13.2.1/bits/parse_numbers.h \
  /usr/include/c++/13.2.1/bits/std_mutex.h \
  /usr/include/c++/13.2.1/bits/unique_lock.h \
- /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/include/EventAction.hh \
+ /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/include/EventAction.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4UserEventAction.hh \
- /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/include/DetectorConstruction.hh \
+ /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/include/DetectorConstruction.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4VUserDetectorConstruction.hh \
  /usr/include/c++/13.2.1/vector \
  /usr/include/c++/13.2.1/bits/stl_uninitialized.h \

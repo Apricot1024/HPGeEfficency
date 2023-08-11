@@ -1,7 +1,7 @@
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: \
- /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/exampleB1.cc \
+ /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/exampleB1.cc \
  /usr/include/stdc-predef.h \
- /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/include/DetectorConstruction.hh \
+ /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/include/DetectorConstruction.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4VUserDetectorConstruction.hh \
  /usr/include/c++/13.2.1/vector \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \
@@ -215,7 +215,7 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o: \
  /usr/include/c++/13.2.1/bits/std_mutex.h \
  /usr/include/c++/13.2.1/bits/unique_lock.h \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/globals.hh \
- /home/apricot/Desktop/HPGe_Geant4/workdir/HPGeEfficency/include/ActionInitialization.hh \
+ /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/include/ActionInitialization.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4VUserActionInitialization.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4RunManagerFactory.hh \
  /opt/Geant4/Geant4-v11.1.2/include/Geant4/G4RunManager.hh \
