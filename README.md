@@ -1,7 +1,7 @@
 # HPGe效率刻度Geant4模拟
 模拟过程主要基于exampleB1，通过能量沉积获得模拟得到的输出谱。
 
-root输出统计主要参考AnaEx01，目前统计在histo里，后续还会继续改进。
+root输出统计主要参考AnaEx01，目前统计在./rootfile和./rootfileguas里，后续还会继续改进。
 
 目前还有在endofeventaction直接判断能量沉积的输出方式。
 # Ge使用自带材料G4_Ge，井型高纯锗
@@ -14,10 +14,13 @@ root输出统计主要参考AnaEx01，目前统计在histo里，后续还会继�
 5. 关于physiclist。直接使用B1的physiclist,没有细看。可能可以有物理过程的改进。GEANT4官网关于QBBCphysiclist的描述：
 > It is recommended for medical and space physics simulations.
 
+# 使用过程
+1. 使用方式参阅./cmakemakerunFor.sh以及./rootfile/eff.cpp, ./rootfile/efficiency.cpp
+2. 主要GEANT4代码在run0808以及run0808a中。
 
 # 感谢
 感谢CERN的GEANT4和root, 可是我不会用;
 
 感谢Microsoft的vscode， 可是我只会用一点点;
 
-感谢组里师兄，和老师。
+感谢同门师兄，和老师。
