@@ -49,7 +49,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "exampleB1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-exampleB1-22cf0a1135a1a8f7e843.json",
+					"jsonFile" : "target-exampleB1-5c7c7d29184cf4c95f18.json",
 					"name" : "exampleB1",
 					"projectIndex" : 0
 				}
@@ -59,8 +59,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/build",
-		"source" : "/home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency"
+		"build" : "/home/apricot/Documents/Science/05Simulations/run0808a/run0808/build",
+		"source" : "/home/apricot/Documents/Science/05Simulations/run0808a/run0808"
 	},
 	"version" : 
 	{

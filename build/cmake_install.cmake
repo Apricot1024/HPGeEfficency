@@ -1,4 +1,4 @@
-# Install script for directory: /home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency
+# Install script for directory: /home/apricot/Documents/Science/05Simulations/run0808a/run0808
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,12 +49,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampleB1"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/build/exampleB1")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/apricot/Documents/Science/05Simulations/run0808a/run0808/build/exampleB1")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampleB1" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampleB1")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampleB1"
-         OLD_RPATH "/opt/Geant4/Geant4-v11.1.2/lib:"
+         OLD_RPATH "/opt/Geant4/Geant4-v11.1.3/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampleB1")
@@ -70,5 +70,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/apricot/Documents/Science/HPGe_Geant4/workdir/run0808/HPGeEfficency/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/apricot/Documents/Science/05Simulations/run0808a/run0808/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
