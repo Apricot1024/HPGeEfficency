@@ -1,0 +1,60 @@
+Step 1: Updating lala.hh with new value 2.50
+Step 1: Changing directory to build folder
+Step 2: Updating lala.hh with new value 2.60
+Step 2: Changing directory to build folder
+Step 3: Updating lala.hh with new value 2.70
+Step 3: Changing directory to build folder
+Step 4: Updating lala.hh with new value 2.80
+Step 4: Changing directory to build folder
+Step 1: Updating lala.hh with new value 2.50
+Step 1: Changing directory to build folder
+Step 2: Updating lala.hh with new value 2.60
+Step 2: Changing directory to build folder
+Step 3: Updating lala.hh with new value 2.70
+Step 3: Changing directory to build folder
+Step 4: Updating lala.hh with new value 2.80
+Step 4: Changing directory to build folder
+Step 5: Updating lala.hh with new value 2.90
+Step 5: Changing directory to build folder
+Step 6: Updating lala.hh with new value 3.00
+Step 6: Changing directory to build folder
+Step 7: Updating lala.hh with new value 3.10
+Step 7: Changing directory to build folder
+Step 8: Updating lala.hh with new value 3.20
+Step 8: Changing directory to build folder
+Step 9: Updating lala.hh with new value 3.30
+Step 9: Changing directory to build folder
+Step 10: Updating lala.hh with new value 3.40
+Step 10: Changing directory to build folder
+Step 11: Updating lala.hh with new value 3.50
+Step 11: Changing directory to build folder
+Step 12: Updating lala.hh with new value 3.60
+Step 12: Changing directory to build folder
+Step 13: Updating lala.hh with new value 3.70
+Step 13: Changing directory to build folder
+Step 14: Updating lala.hh with new value 3.80
+Step 14: Changing directory to build folder
+Step 15: Updating lala.hh with new value 3.90
+Step 15: Changing directory to build folder
+Step 16: Updating lala.hh with new value 4.00
+Step 16: Changing directory to build folder
+Step 17: Updating lala.hh with new value 4.10
+Step 17: Changing directory to build folder
+Step 18: Updating lala.hh with new value 4.20
+Step 18: Changing directory to build folder
+Step 19: Updating lala.hh with new value 4.30
+Step 19: Changing directory to build folder
+Step 20: Updating lala.hh with new value 4.40
+Step 20: Changing directory to build folder
+Step 21: Updating lala.hh with new value 4.50
+Step 21: Changing directory to build folder
+Step 22: Updating lala.hh with new value 4.60
+Step 22: Changing directory to build folder
+Step 23: Updating lala.hh with new value 4.70
+Step 23: Changing directory to build folder
+Step 24: Updating lala.hh with new value 4.80
+Step 24: Changing directory to build folder
+Step 25: Updating lala.hh with new value 4.90
+Step 25: Changing directory to build folder
+Step 26: Updating lala.hh with new value 5.00
+Step 26: Changing directory to build folder
